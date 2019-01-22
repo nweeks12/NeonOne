@@ -1,0 +1,33 @@
+<usereventscript scriptid="customscript_scg_sales_order_ue">
+  <aftersubmitfunction>mt_so_afterSubmit</aftersubmitfunction>
+  <beforeloadfunction>mt_so_beforeLoad</beforeloadfunction>
+  <beforesubmitfunction>mt_so_beforeSubmit</beforesubmitfunction>
+  <description>Handles user events on Sales Order records</description>
+  <isinactive>F</isinactive>
+  <name>SCG Sales Order UE</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/MT Sales Order UE.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_scg_sales_order_ue">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executeinwebstore>F</executeinwebstore>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>SALESORDER</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/SCG_SORevRec_LIB.js]</scriptfile>
+    </library>
+  </libraries>
+</usereventscript>

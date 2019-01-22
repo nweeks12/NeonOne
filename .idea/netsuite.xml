@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AccountsInformationState">
+    <option name="accountsInformation">
+      <Toplevel>
+        <option name="molecules">
+          <Molecules>
+            <option name="molecule">
+              <array>
+                <Molecule>
+                  <option name="UUID" value="8eab0f76-0a9a-4421-92f7-98ec1a084e4e" />
+                  <option name="description" value="Production" />
+                  <option name="url" value="system.netsuite.com" />
+                </Molecule>
+                <Molecule>
+                  <option name="UUID" value="f210bb29-7447-42d3-91fd-01506d949028" />
+                  <option name="description" value="Sandbox" />
+                  <option name="url" value="system.sandbox.netsuite.com" />
+                </Molecule>
+              </array>
+            </option>
+          </Molecules>
+        </option>
+        <option name="sdkSettings">
+          <SdkSettings>
+            <option name="moleculeSettings">
+              <MoleculeSettings>
+                <option name="moleculeSetting">
+                  <array>
+                    <MoleculeSetting>
+                      <option name="accounts">
+                        <Accounts>
+                          <option name="account">
+                            <array>
+                              <Account>
+                                <option name="companies">
+                                  <Companies>
+                                    <option name="company">
+                                      <array>
+                                        <Company>
+                                          <option name="UUID" value="311b80fd-1e16-45c7-ae9f-2ae5888a2ad5" />
+                                          <option name="accountType" value="PRODUCTION" />
+                                          <option name="id" value="4899079" />
+                                          <option name="name" value="Market Track Vista" />
+                                          <option name="restDomain" value="4899079.restlets.api.netsuite.com" />
+                                          <option name="roles">
+                                            <Roles>
+                                              <option name="role">
+                                                <array>
+                                                  <Role>
+                                                    <option name="name" value="Administrator" />
+                                                    <option name="nkey" value="3" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="SDF Developer" />
+                                                    <option name="nkey" value="1028" />
+                                                    <option name="tokenKey" value="3e20bf4434f5d724a15c7cfe668a1973b3b6920c645c8d7f36ad31d3ac9f4d3c210c5b9a1b51740a0ac95d8aaeb5551beb78839b5523ad0537457f0a9c4a33367ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                    <option name="tokenSecret" value="a92d194b0a97f3731a72fb15debfd437c1fc36d324c0154e53c05d9967df23326df0258068c8355928707ee92b8486cf6705c41c3e1321e1ee726ebe789ed8757ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                  </Role>
+                                                </array>
+                                              </option>
+                                            </Roles>
+                                          </option>
+                                          <option name="systemDomain" value="system.na2.netsuite.com" />
+                                          <option name="webservicesDomain" value="4899079.suitetalk.api.netsuite.com" />
+                                        </Company>
+                                      </array>
+                                    </option>
+                                  </Companies>
+                                </option>
+                                <option name="email" value="nick.weeks@saascg.com" />
+                                <option name="password" value="c1db3a1d04f428de289b4a09714850e19e00ecb644b20be7e7eb425b1c4af8bd" />
+                              </Account>
+                            </array>
+                          </option>
+                        </Accounts>
+                      </option>
+                      <option name="molecule">
+                        <Molecule>
+                          <option name="UUID" value="8eab0f76-0a9a-4421-92f7-98ec1a084e4e" />
+                        </Molecule>
+                      </option>
+                    </MoleculeSetting>
+                  </array>
+                </option>
+              </MoleculeSettings>
+            </option>
+          </SdkSettings>
+        </option>
+      </Toplevel>
+    </option>
+    <option name="projectSettings">
+      <ProjectSettings>
+        <option name="accountRoleId" value="1028" />
+        <option name="accountUUID" value="311b80fd-1e16-45c7-ae9f-2ae5888a2ad5" />
+        <option name="applyContentProtection" value="false" />
+      </ProjectSettings>
+    </option>
+  </component>
+</project>
