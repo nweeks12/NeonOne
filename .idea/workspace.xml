@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2010d3c4-764f-424b-a3e0-a537bcd280ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2010d3c4-764f-424b-a3e0-a537bcd280ca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -66,20 +64,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548191777038</updated>
-      <workItem from="1548191778196" duration="251000" />
+      <workItem from="1548191778196" duration="2185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251000" />
+    <option name="totallyTimeSpent" value="2185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1577" extended-state="0" />
+    <frame x="2253" y="23" width="1587" height="1577" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50236964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43933588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SuiteCloud IDE" />
+      <window_info anchor="bottom" id="SuiteCloud IDE" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
