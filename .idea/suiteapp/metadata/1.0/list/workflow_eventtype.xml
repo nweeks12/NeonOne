@@ -1,0 +1,20 @@
+<list id='workflow_eventtype'>
+    <value>APPROVE</value> <!-- Approve !-->
+    <value>CANCEL</value> <!-- Cancel !-->
+    <value>COPY</value> <!-- Copy !-->
+    <value>CREATE</value> <!-- Create !-->
+    <value>DELETE</value> <!-- Delete !-->
+    <value>XEDIT</value> <!-- Direct List Edit !-->
+    <value>DROPSHIP</value> <!-- Drop Ship !-->
+    <value>EDIT</value> <!-- Edit !-->
+    <value>EDITFORECAST</value> <!-- Edit Forecast !-->
+    <value>EMAIL</value> <!-- Email !-->
+    <value>MARKCOMPLETE</value> <!-- Mark Complete !-->
+    <value>ORDERITEMS</value> <!-- Order Items !-->
+    <value>PAYBILLS</value> <!-- Pay Bills !-->
+    <value>PRINT</value> <!-- Print !-->
+    <value>REASSIGN</value> <!-- Reassign !-->
+    <value>REJECT</value> <!-- Reject !-->
+    <value>SPECIALORDER</value> <!-- Special Order !-->
+    <value>VIEW</value> <!-- View !-->
+</list>

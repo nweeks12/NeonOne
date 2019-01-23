@@ -1,0 +1,69 @@
+<list id='workflowaction_buttonid'>
+    <value>ACCEPTPAYMENT</value> <!-- Accept Payment !-->
+    <value>APPLY</value> <!-- Apply !-->
+    <value>APPROVE</value> <!-- Approve !-->
+    <value>APPROVERETURN</value> <!-- Approve Return !-->
+    <value>RETURN</value> <!-- Authorize Return !-->
+    <value>AUTOFILL</value> <!-- Auto Fill !-->
+    <value>BILL</value> <!-- Bill !-->
+    <value>SUBMITINV</value> <!-- Bill !-->
+    <value>BILLREMAINING</value> <!-- Bill Remaining !-->
+    <value>CANCELBILL</value> <!-- Cancel Bill !-->
+    <value>CANCELORDER</value> <!-- Cancel Order !-->
+    <value>CANCELRETURN</value> <!-- Cancel Return !-->
+    <value>CREATECASHSALE</value> <!-- Cash Sale !-->
+    <value>CLEARSPLITS</value> <!-- Clear Splits !-->
+    <value>CLOSEREMAINING</value> <!-- Close !-->
+    <value>REVCOMM</value> <!-- Commit Revenue !-->
+    <value>COMPLETECOUNT</value> <!-- Complete Count !-->
+    <value>CREATEBUILD</value> <!-- Create Build !-->
+    <value>CREATEDEPOSIT</value> <!-- Create Deposit !-->
+    <value>CREDIT</value> <!-- Credit !-->
+    <value>DELETE</value> <!-- Delete !-->
+    <value>EMAIL</value> <!-- Email !-->
+    <value>ENTERCOMPLETION</value> <!-- Enter Completion !-->
+    <value>ENTERCOMPLETIONWITHBACKFLUSH</value> <!-- Enter Completion with Backflush !-->
+    <value>FAX</value> <!-- Fax !-->
+    <value>PROCESS</value> <!-- Fulfill !-->
+    <value>GLIMPACT</value> <!-- GL Impact !-->
+    <value>GOTOREGISTER</value> <!-- Go To Register !-->
+    <value>CREATEINVOICE</value> <!-- Invoice !-->
+    <value>ISSUECOMPONENTS</value> <!-- Issue Components !-->
+    <value>MAKECOPY</value> <!-- Make Copy !-->
+    <value>PAYMENT</value> <!-- Make Payment !-->
+    <value>MAKESTANDALONECOPY</value> <!-- Make Standalone Copy !-->
+    <value>UPDATEREVREC</value> <!-- Manage Revenue Recognition !-->
+    <value>MARKPACKED</value> <!-- Mark Packed !-->
+    <value>MEMORIZE</value> <!-- Memorize !-->
+    <value>NEW</value> <!-- New !-->
+    <value>NEXTBILL</value> <!-- Next Bill !-->
+    <value>PRINT</value> <!-- Print !-->
+    <value>PRINTBOM</value> <!-- Print BOM !-->
+    <value>PRINTETDCOPY</value> <!-- Print ETD Copy !-->
+    <value>PRINTITEMLABELS</value> <!-- Print Item Labels !-->
+    <value>PRINTLABEL</value> <!-- Print Label !-->
+    <value>PRINTPICKTICK</value> <!-- Print Picking Ticket !-->
+    <value>DEPOSITSUMMARY</value> <!-- Print Summary !-->
+    <value>RECALC</value> <!-- Recalc !-->
+    <value>RECEIVE</value> <!-- Receive !-->
+    <value>REFUND</value> <!-- Refund !-->
+    <value>REJECT</value> <!-- Reject !-->
+    <value>RENEWAL</value> <!-- Renew !-->
+    <value>RESETTER</value> <!-- Reset !-->
+    <value>REVCOMRV</value> <!-- Reverse Revenue !-->
+    <value>CREATESALESORD</value> <!-- Sales Order !-->
+    <value>SUBMITACCEPTDEPOSIT</value> <!-- Save & Accept Deposit !-->
+    <value>SUBMITBILL</value> <!-- Save & Bill !-->
+    <value>SUBMITCOPY</value> <!-- Save & Copy !-->
+    <value>SAVEEMAIL</value> <!-- Save & Email !-->
+    <value>SUBMITFULFILL</value> <!-- Save & Fulfill !-->
+    <value>SUBMITNEW</value> <!-- Save & New !-->
+    <value>SAVEPRINT</value> <!-- Save & Print !-->
+    <value>SAVEPRINTBOM</value> <!-- Save & Print BOM !-->
+    <value>SAVEANDPRINTLABEL</value> <!-- Save & Print Label !-->
+    <value>SUBMITREFUND</value> <!-- Save & Refund !-->
+    <value>ACTIVITYHISTORY</value> <!-- Show Activity !-->
+    <value>STARTCOUNT</value> <!-- Start Count !-->
+    <value>UPDATEVSOE</value> <!-- Update VSOE !-->
+    <value>VOID</value> <!-- Void !-->
+</list>

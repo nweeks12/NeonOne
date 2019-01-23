@@ -1,0 +1,1014 @@
+<!--
+This file lists all standard tasks that are associated with a category via a tasklink.
+Following query fetched from custcategory, custrecord, gotopage request handler,
+without the parts related to edition that are dependent on user login.
+-->
+<list id='generic_task'>
+	<value>ADMI_ACCOUNTCLOSE</value>  <!-- Close Account -->
+	<value>ADMI_ACCOUNTMOBILITY</value>  <!-- Account Mobility Tasks -->
+	<value>ADMI_ACCTSETUP</value>  <!-- Accounting Preferences -->
+	<value>ADMI_ACHSETUP</value>  <!-- Set Up ACH Processing -->
+	<value>ADMI_ACTIVATEBANKACCOUNT</value>  <!-- Activate Bank Account -->
+	<value>ADMI_ADP</value>  <!-- ADP Set Up -->
+	<value>ADMI_ADVINVENTORYSETUP</value>  <!-- Inventory Management Preferences -->
+	<value>ADMI_ALLOW_LOGIN</value>  <!-- NetSuite Support Login -->
+	<value>ADMI_BACKUP</value>  <!-- Full CSV Export -->
+	<value>ADMI_BASSETUP</value>  <!-- Set Up Business Activity Statement -->
+	<value>ADMI_BILLINGEVENTS</value>  <!-- View Billing Information -->
+	<value>ADMI_BILLINGTERMS</value>  <!-- View Billing Terms -->
+	<value>ADMI_BILLING_QEST</value>  <!-- Billing Questions -->
+	<value>ADMI_BOUNCEDADDRESS</value>  <!-- Bounced Email Addresses -->
+	<value>ADMI_CACHEINVALIDATIONREQUESTLISTADV</value>  <!-- Cache Invalidation Requests -->
+	<value>ADMI_CLASSESTOLOCS</value>  <!-- Convert Classes to Locations -->
+	<value>ADMI_CLEARACCOUNT</value>  <!-- Delete All Data -->
+	<value>ADMI_CLOSEPERIOD</value>  <!-- Lock Transactions -->
+	<value>ADMI_COMMISSIONSETUP</value>  <!-- Set Up Commissions -->
+	<value>ADMI_COMPANY</value>  <!-- Company Information -->
+	<value>ADMI_CONVERTCLASSES</value>  <!-- Convert Classes to Departments -->
+	<value>ADMI_CSVIMPORTPREF</value>  <!-- CSV Import Preferences -->
+	<value>ADMI_CUSTAPPTEXT</value>  <!-- Customize Fulfillment Email -->
+	<value>ADMI_DUPLICATESETUP</value>  <!-- Set Up Duplicate Detection -->
+	<value>ADMI_EMAIL</value>  <!-- Email Preferences -->
+	<value>ADMI_EXPORTPRODUCTFEEDS</value>  <!-- Product Feeds -->
+	<value>ADMI_EXPORTPRODUCTFEEDSADV</value>  <!-- Product Feeds -->
+	<value>ADMI_FEATURES</value>  <!-- Enable Features -->
+	<value>ADMI_FINCHARGEPREF</value>  <!-- Finance Charge Preferences -->
+	<value>ADMI_GENERAL</value>  <!-- General Preferences -->
+	<value>ADMI_HEADING</value>  <!-- Heading -->
+	<value>ADMI_INVENTORYCOSTINGSETUP</value>
+	<value>ADMI_IMAGERESIZE</value>  <!-- Image Resizing -->
+	<value>ADMI_IMPORTADP</value>  <!-- Import ADP Payroll -->
+	<value>ADMI_IMPORTCSV</value>  <!-- Import CSV Records -->
+	<value>ADMI_IMPORTCSV_LOG</value>  <!-- View CSV Import Status -->
+	<value>ADMI_IMPORTOLB</value>  <!-- Import Online Banking Data -->
+	<value>ADMI_INTEGR_APP</value>  <!-- Manage Integrations -->
+	<value>ADMI_INVOICESETUP</value>  <!-- Invoicing Preferences -->
+	<value>ADMI_ISSUEEXTSTATUS</value>  <!-- Issue External Statuses -->
+	<value>ADMI_ISSUEIMPORT</value>  <!-- Import Issue Records -->
+	<value>ADMI_ISSUEPRIORITY</value>  <!-- Issue Priorities -->
+	<value>ADMI_ISSUEPRODUCT</value>  <!-- Products -->
+	<value>ADMI_ISSUERELEASEUPDATE</value>  <!-- Manage Released Issues -->
+	<value>ADMI_ISSUEREPRODUCE</value>  <!-- Issue Reproducibility -->
+	<value>ADMI_ISSUESETUP</value>  <!-- Issue Preferences -->
+	<value>ADMI_ISSUESEVERITY</value>  <!-- Issue Severities -->
+	<value>ADMI_ISSUESOURCE</value>  <!-- Issue Sources -->
+	<value>ADMI_ISSUESTATUS</value>  <!-- Issue Statuses -->
+	<value>ADMI_ISSUESTATUSFLOW</value>  <!-- Manage Status Transitions -->
+	<value>ADMI_ISSUETAGS</value>  <!-- Issue Tags -->
+	<value>ADMI_ISSUETYPE</value>  <!-- Issue Types -->
+	<value>ADMI_ISSUEUSERTYPE</value>  <!-- Issue Roles -->
+	<value>ADMI_LEADCUSTOMFIELDMAPPING</value>  <!-- Lead Conversion Mapping -->
+	<value>ADMI_LOGINAUDIT</value>  <!-- View Login Audit Trail -->
+	<value>ADMI_LOGINRESTRICT</value>  <!-- View Login Restrictions -->
+	<value>ADMI_MAINTENANCEDOMAINLIST</value>  <!-- Site Maintenance Domains -->
+	<value>ADMI_MAINTENANCEDOMAINLISTADV</value>  <!-- Site Maintenance Domains -->
+	<value>ADMI_MANAGEPAYROLL</value>  <!-- Update Payroll Information -->
+	<value>ADMI_MANAGE_PLUGINS</value>  <!-- Manage Plug-ins -->
+	<value>ADMI_NAMING</value>  <!-- Rename Records/Transactions -->
+	<value>ADMI_NATIVESITEMAPGENERATOR</value>
+	<value>ADMI_NEXUSES</value>  <!-- Nexuses -->
+	<value>ADMI_NOTIFICATIONS</value>  <!-- Administrative Notifications -->
+	<value>ADMI_NUMBERING</value>  <!-- Set Up Auto-Generated Numbers -->
+	<value>ADMI_OAUTH_TOKENS</value>  <!-- Access Tokens -->
+	<value>ADMI_OPENIDSSO</value>  <!-- OpenID Single Sign-on -->
+	<value>ADMI_OTHERSTUB</value>  <!-- Other Section Task -->
+	<value>ADMI_PAYROLL</value>  <!-- Set Up Payroll -->
+	<value>ADMI_PAYROLLMAP</value>  <!-- Map Payroll Items -->
+	<value>ADMI_PAYROLLREP</value>  <!-- Report Sections -->
+	<value>ADMI_PRINTING</value>  <!-- Printing & Fax -->
+	<value>ADMI_PROJECT_ACCOUNTING_SETUP</value>
+	<value>ADMI_REDIRECTS</value>  <!-- Web Site Redirects -->
+	<value>ADMI_REDIRECTSADV</value>  <!-- Web Site Redirects -->
+	<value>ADMI_REVIEW_CUSTOM_GL</value>
+	<value>ADMI_SAMLSSO</value>  <!-- SAML Single Sign-on -->
+	<value>ADMI_SANDBOXACCOUNTS</value>  <!-- Sandbox Accounts -->
+	<value>ADMI_SAVEDIMPORTS</value>  <!-- Saved CSV Imports -->
+	<value>ADMI_SCRIPTDEBUGGER</value>  <!-- Script Debugger -->
+	<value>ADMI_SETUPURLS</value>  <!-- Bulk Set URL Components -->
+	<value>ADMI_SETUPURLSADV</value>  <!-- Bulk Set URL Components -->
+	<value>ADMI_SFASETUP</value>  <!-- Sales Preferences -->
+	<value>ADMI_SHIPPING</value>  <!-- Set Up Shipping -->
+	<value>ADMI_SITEMAPGENERATOR</value>  <!-- Sitemap Generator -->
+	<value>ADMI_SITEMAPGENERATORADV</value>  <!-- Sitemap Generator -->
+	<value>ADMI_SITEMAP_MANAGER</value>  <!-- Content Manager -->
+	<value>ADMI_SOFTDESCRIPTORS</value>  <!-- Set Up Credit Card Soft Descriptors -->
+	<value>ADMI_STATETAXIMPORT</value>  <!-- Use State Sales Tax Tables -->
+	<value>ADMI_STOREASSISTANT</value>  <!-- Web Site Assistant -->
+	<value>ADMI_STORELIST</value>  <!-- Set Up Web Site -->
+	<value>ADMI_STORELISTADV</value>  <!-- Set Up Web Site -->
+	<value>ADMI_STOREPREVIEW</value>  <!-- Preview Web Site -->
+	<value>ADMI_STOREPREVIEWADV</value>  <!-- Preview Web Site -->
+	<value>ADMI_SUITESIGNON</value>  <!-- SuiteSignOn -->
+	<value>ADMI_SUITEPROCESSORS</value>  <!-- SuiteSignOn -->
+	<value>ADMI_SUPPORTSETUP</value>  <!-- Support Preferences -->
+	<value>ADMI_SWAPPRICES</value>  <!-- Swap Prices Between Price Levels -->
+	<value>ADMI_TAX</value>  <!-- Set Up Taxes -->
+	<value>ADMI_TAXACCTS</value>  <!-- Tax Control Accounts -->
+	<value>ADMI_TAXTYPES</value>  <!-- Tax Types -->
+	<value>ADMI_TDCLRPOOL</value>  <!-- Clear Pool Generated from Testdrive Master -->
+	<value>ADMI_TDMKMSTR</value>  <!-- Make Testdrive Master -->
+	<value>ADMI_TEGATA</value>  <!-- Tegata Accounts -->
+	<value>ADMI_TEXTCUST</value>  <!-- Customize Web Site Text -->
+	<value>ADMI_TEXTCUSTADV</value>  <!-- Customize Web Site Text -->
+	<value>ADMI_TRANSETUP</value>  <!-- Set Up Transactions -->
+	<value>ADMI_TRANSITEMTXT</value>  <!-- Bulk Update Translation -->
+	<value>ADMI_TWOFACTORDEVICES</value>  <!-- Two-Factor Authentication Tokens -->
+	<value>ADMI_TWOFACTORPHONERESET</value>  <!-- Two-Factor Reset Tool-->
+	<value>ADMI_TWOFACTORROLES</value>  <!-- Two-Factor Authentication Roles -->
+	<value>ADMI_UPDATEPRICES</value>  <!-- Update Prices -->
+	<value>ADMI_UPSELLSETUP</value>  <!-- Upsell Preferences -->
+	<value>ADMI_URLCOMPONENTS</value>  <!-- URL Components for Facets -->
+	<value>ADMI_WEBSERVICEPREFS</value>  <!-- Web Services Preferences -->
+	<value>ADMI_WEBSERVICES_STATUS</value>  <!-- Web Services Process Status -->
+	<value>ADMI_WEBSERVICES_USAGE_LOG</value>  <!-- Web Services Usage Log -->
+	<value>ADMI_XML_ADP_SETUP</value>  <!-- Set Up ADP Payroll -->
+	<value>ADMI_XML_PAYTRUST_APPROVE</value>  <!-- Approve Online Bill Payments -->
+	<value>ADMI_XML_PAYTRUST_SETUP</value>  <!-- Set Up Online Bill Pay -->
+	<value>ADMI_XML_PAYTRUST_STATUS</value>  <!-- View Online Bill Pay Status -->
+	<value>ADMI_YTDTAXLIBANDPYMTS</value>  <!-- Set Up Year-to-Date Information -->
+	<value>DUMM_SEPARATOR</value>  <!-- Dummy task to represent line separator -->
+	<value>EDIT_ADVANCEDORDERMANAGEMENTSETUP</value>  <!-- Advanced Order Management -->
+	<value>EDIT_ALLOCATION</value>  <!-- Create Allocation Schedules -->
+	<value>EDIT_ALLOCATIONBATCH</value>  <!-- Create Allocation Batches -->
+	<value>EDIT_APPPKG</value>  <!-- Upload App Package for New Bundle -->
+	<value>EDIT_APPPKG_UPGRADE</value>  <!-- Upload App Package for Bundle Upgrade -->
+	<value>EDIT_BILLINGACCOUNT</value>  <!-- Create Billing Accounts -->
+	<value>EDIT_BILLRUNSCHEDULE</value>  <!-- Schedule Billing Operations -->
+	<value>EDIT_BUNDLE</value>  <!-- Create Bundle -->
+	<value>EDIT_BUNDLEAUDITTRAIL</value>  <!-- Bundle Audit Trail -->
+	<value>EDIT_CALENDARPREFERENCE</value>  <!-- Calendar Preference -->
+	<value>EDIT_CAMPAIGNBULK</value>  <!-- Create Keyword Campaigns -->
+	<value>EDIT_CHARGE</value>  <!-- Create Charges -->
+	<value>EDIT_CUSTADDRESSFORM</value>  <!-- Address Form -->
+	<value>EDIT_CUSTPROFILE</value>  <!-- Customer Profile -->
+	<value>EDIT_CUSTTASKS</value>  <!-- Center Links -->
+	<value>EDIT_DEPLOYMENTAUDITTRAIL</value>  <!-- Deployment Audit Trail -->
+	<value>EDIT_EDITPROFILE</value>  <!-- Edit Profile -->
+	<value>EDIT_IC_ALLOCATION</value>  <!-- Create Intercompany Allocation Schedules -->
+	<value>EDIT_IMPORT_COUPONCODE</value>  <!-- Import Coupon Codes -->
+	<value>EDIT_INBOUNDSHIPMENT</value>
+	<value>EDIT_INSTALLBUNDLE</value>  <!-- Search & Install Bundles -->
+	<value>EDIT_LOCASSIGNRULES_AUDIT_TRAIL</value>  <!-- Rules Audit Trail -->
+	<value>EDIT_MAILMERGE</value>  <!-- Bulk Merge -->
+	<value>EDIT_MEMDOC</value>  <!-- Enter Memorized Transactions -->
+	<value>EDIT_PROCESSHISTTXN</value>  <!-- Historical Transaction Processing -->
+	<value>EDIT_PUBLISHER</value>  <!-- Register Publisher -->
+	<value>EDIT_PUBLISHERAPP</value>  <!-- New Application -->
+	<value>EDIT_RECLASSJESCHEDULE</value>  <!-- Schedule Reclassification Journal Entries -->
+	<value>EDIT_REVRECJESCHEDULE</value>  <!-- Schedule Revenue Recognition Journal Entries -->
+	<value>EDIT_AMORTJESCHEDULE</value>  <!-- Schedule Amortization Journal Entries -->
+	<value>EDIT_SUBSCRIPTION</value>  <!-- Create Subscriptions -->
+	<value>EDIT_SUITEAPPLIST</value>
+	<value>EDIT_SUPPORTCASE</value>  <!-- New Cases -->
+	<value>EDIT_TIMEOFFREQUEST</value>  <!-- New Time-Off Request -->
+	<value>EDIT_TIMESHEET</value>  <!-- Enter Time -->
+	<value>EDIT_TRAN_ADJJOURNAL</value>  <!-- Make Currency Adjustment Journal Entries -->
+	<value>EDIT_TRAN_ADVICJOURNAL</value>
+	<value>EDIT_TRAN_BINTRNFR</value>  <!-- Bin Transfer -->
+	<value>EDIT_TRAN_BINWKSHT</value>  <!-- Bin Putaway Worksheet -->
+	<value>EDIT_TRAN_BLANKORD</value>  <!-- Enter Blanket Purchase Order -->
+	<value>EDIT_TRAN_BOOKICJOURNAL</value>  <!-- Make Book Specific Intercompany Journal Entries -->
+	<value>EDIT_TRAN_BOOKADVICJOURNAL</value>  <!-- Make Book Specific Intercompany Journal Entries -->
+	<value>EDIT_TRAN_BOOKJOURNAL</value>  <!-- Make Book Specific Journal Entries -->
+	<value>EDIT_TRAN_BUILD</value>  <!-- Build Assemblies -->
+	<value>EDIT_TRAN_CARDCHRG</value>  <!-- Use Credit Card -->
+	<value>EDIT_TRAN_CASHRFND</value>  <!-- Refund Cash Sales -->
+	<value>EDIT_TRAN_CASHSALE</value>  <!-- Enter Cash Sales -->
+	<value>EDIT_TRAN_CHECK</value>  <!-- Write Checks -->
+	<value>EDIT_TRAN_COMMISSN</value>  <!-- Individual Employee Commission -->
+	<value>EDIT_TRAN_CUSTAUTH</value>
+	<value>EDIT_TRAN_CUSTCHRG</value>  <!-- Create Statement Charges -->
+	<value>EDIT_TRAN_CUSTCRED</value>  <!-- Issue Credit Memos -->
+	<value>EDIT_TRAN_CUSTDEP</value>  <!-- Record Customer Deposits -->
+	<value>EDIT_TRAN_CUSTINVC</value>  <!-- Create Invoices -->
+	<value>EDIT_TRAN_CUSTPYMT</value>  <!-- Accept Customer Payments -->
+	<value>EDIT_TRAN_CUSTRFND</value>  <!-- Issue Customer Refund -->
+	<value>EDIT_TRAN_DEPOSIT</value>  <!-- Make Deposits -->
+	<value>EDIT_TRAN_ESTIMATE</value>  <!-- Prepare Estimates -->
+	<value>EDIT_TRAN_EXPREPT</value>  <!-- Enter Expense Reports -->
+	<value>EDIT_TRAN_FXREVAL</value>  <!-- Revalue Open Currency Balances -->
+	<value>EDIT_TRAN_ICJOURNAL</value>  <!-- Make Intercompany Journal Entries -->
+	<value>EDIT_TRAN_ICTRNFRORD</value>  <!-- Enter Intercompany Transfer Orders -->
+	<value>EDIT_TRAN_INVADJST</value>  <!-- Adjust Inventory -->
+	<value>EDIT_TRAN_INVCOUNT</value>  <!-- Enter Inventory Count -->
+	<value>EDIT_TRAN_INVDISTR</value>  <!-- Distribute Inventory -->
+	<value>EDIT_TRAN_INVREVAL</value>  <!-- Revalue Inventory Cost -->
+	<value>EDIT_TRAN_INVTRNFR</value>  <!-- Transfer Inventory -->
+	<value>EDIT_TRAN_INVWKSHT</value>  <!-- Adjust Inventory Worksheet -->
+	<value>EDIT_TRAN_JOURNAL</value>  <!-- Make Journal Entries -->
+	<value>EDIT_TRAN_LIABPYMT</value>  <!-- Pay Payroll Liabilities -->
+	<value>EDIT_TRAN_OPPRTNTY</value>  <!-- Create Opportunities -->
+	<value>EDIT_TRAN_ORDERPURCHREQ</value>  <!-- Order Requisitions -->
+	<value>EDIT_TRAN_PARTNERCOMMISSN</value>  <!-- Individual Partner Commission -->
+	<value>EDIT_TRAN_PCHKJRNL</value>  <!-- Paycheck Journal -->
+	<value>EDIT_TRAN_PEJRNL</value>  <!-- Make Period End Journal Entries -->
+	<value>EDIT_TRAN_PURCHCON</value>  <!-- Enter Purchase Contracts -->
+	<value>EDIT_TRAN_PURCHORD</value>  <!-- Enter Purchase Orders -->
+	<value>EDIT_TRAN_PURCHREQ</value>  <!-- Enter Requisitions -->
+	<value>EDIT_TRAN_REPLENISHINVENTORY</value>  <!-- Replenish Location By Transfer Order -->
+	<value>EDIT_TRAN_REPLENISHLOC</value>  <!-- Replenish Location By Inventory Transfer -->
+	<value>EDIT_TRAN_RFQ</value>  <!-- Enter Requests For Quote -->
+	<value>EDIT_TRAN_RTNAUTH</value>  <!-- Issue Return Authorizations -->
+	<value>EDIT_TRAN_SALESORD</value>  <!-- Enter Sales Orders -->
+	<value>EDIT_TRAN_STATCHNG</value>
+	<value>EDIT_TRAN_STATJOURNAL</value>  <!-- Make Statistical Journal Entries -->
+	<value>EDIT_TRAN_STATSCHEDULE</value>  <!-- Create Statistical Schedule -->
+	<value>EDIT_TRAN_TAXLIAB2</value>  <!-- Write Tax Liability -->
+	<value>EDIT_TRAN_TAXLIAB</value>  <!-- Write GST Liability -->
+	<value>EDIT_TRAN_TAXPYMT2</value>  <!-- Pay Sales Tax -->
+	<value>EDIT_TRAN_TAXPYMT</value>  <!-- Pay Sales Tax -->
+	<value>EDIT_TRAN_TAXPYMTCA</value>  <!-- Pay PST -->
+	<value>EDIT_TRAN_TEGCOLLECT</value>  <!-- Collect Tegata -->
+	<value>EDIT_TRAN_TEGPAY</value>  <!-- Pay Tegata -->
+	<value>EDIT_TRAN_TEGPYBL</value>  <!-- Issue Tegata -->
+	<value>EDIT_TRAN_TEGRCVBL</value>  <!-- Receive Tegata -->
+	<value>EDIT_TRAN_TRANSFER</value>  <!-- Transfer Funds -->
+	<value>EDIT_TRAN_TRNFRORD</value>  <!-- Enter Transfer Orders -->
+	<value>EDIT_TRAN_UNBUILD</value>  <!-- Unbuild Assemblies -->
+	<value>EDIT_TRAN_VATLIABAU</value>  <!-- Pay Tax Liability -->
+	<value>EDIT_TRAN_VENDAUTH</value>  <!-- Enter Vendor Return Authorizations -->
+	<value>EDIT_TRAN_VENDBILL</value>  <!-- Enter Bills -->
+	<value>EDIT_TRAN_VENDCRED</value>  <!-- Enter Vendor Credits -->
+	<value>EDIT_TRAN_VENDPYMT</value>  <!-- Pay Single Vendor -->
+	<value>EDIT_TRAN_WITHDRAWINVENTORY</value>  <!-- Withdraw By Transfer Order -->
+	<value>EDIT_TRAN_WORKORD</value>  <!-- Enter Work Orders -->
+	<value>EDIT_TRAN_YTDADJST</value>  <!-- Create Payroll Adjustment -->
+	<value>EDIT_UPGRADEBUNDLE</value>  <!-- Managed Bundles -->
+	<value>EDIT_USAGE</value>  <!-- Create Usages -->
+	<value>EXTL_10</value>  <!-- Order Forms -->
+	<value>EXTL_10_1</value>  <!-- Order Forms -->
+	<value>EXTL_12</value>  <!-- User Group -->
+	<value>EXTL_2</value>  <!-- Implementation Partner Directory -->
+	<value>EXTL_9</value>  <!-- Order Forms -->
+	<value>EXTL_9_1</value>  <!-- Order Forms -->
+	<value>INTL_SECTIONS</value>  <!-- Tabs -->
+	<value>INTL_TASKLINKS</value>  <!-- Tasklinks -->
+	<value>LIST_ACCOUNT</value>  <!-- Accounts -->
+	<value>LIST_ACCOUNTINGBOOK</value>  <!-- Accounting Books -->
+	<value>LIST_ACCOUNTINGOTHERLIST</value>  <!-- Accounting Lists -->
+	<value>LIST_ACTIVITY</value>  <!-- Activity List -->
+	<value>LIST_ADP_BATCHES</value>  <!-- Payroll Batches -->
+	<value>LIST_ADP_PAYCHECK</value>  <!-- Individual Paychecks -->
+	<value>LIST_ADVPDFTEMPLATE</value>  <!-- Advanced PDF/HTML Templates -->
+	<value>LIST_AMORTIZATION</value>  <!-- Amortization Templates -->
+	<value>LIST_AMORTIZATIONSCHEDULE</value>  <!-- Amortization Schedules -->
+	<value>LIST_APPDEF</value>  <!-- App Definitions -->
+	<value>LIST_APPPUBLISHERS</value>  <!-- Application  Publishers -->
+	<value>LIST_APPROVEACH</value>  <!-- Approve Direct Deposits -->
+	<value>LIST_APPROVEEFT</value>  <!-- Approve Electronic Funds Transfers -->
+	<value>LIST_APPROVERTIMEENTRY</value>  <!-- Approve Time -->
+	<value>LIST_APPROVEVP</value>  <!-- Approve Vendor Payment Transfers -->
+	<value>LIST_BILLINGACCOUNT</value>  <!-- Billing Accounts -->
+	<value>LIST_BILLINGCLASS</value>  <!-- Billing Classes -->
+	<value>LIST_BILLINGRATECARD</value>  <!-- Billing Rate Cards -->
+	<value>LIST_BILLINGREVENUEEVENT</value>
+	<value>LIST_BILLINGREVENUEEVENTTYPE</value>
+	<value>LIST_BILLINGSCHEDULE</value>  <!-- Billing Schedules -->
+	<value>LIST_BILLING_GROUPS</value>  <!-- Billing Groups -->
+	<value>LIST_BILLOFDISTRIBUTION</value>  <!-- Bill Of Distribution -->
+	<value>LIST_BILLRUN</value>  <!-- Billing Operations -->
+	<value>LIST_BILLRUNSCHEDULE</value>  <!-- Billing Operation Schedules -->
+	<value>LIST_BIN</value>  <!-- Bins -->
+	<value>LIST_BOM</value>
+	<value>LIST_BUDGETRATES</value>  <!-- Budget Exchange Rates -->
+	<value>LIST_BULKOP</value>  <!-- Mass Updates -->
+	<value>LIST_BULKPROCSUBMISSION</value>  <!-- Mass Updates -->
+	<value>LIST_CALENDAR</value>  <!-- Calendar -->
+	<value>LIST_CALL</value>  <!-- Phone Calls -->
+	<value>LIST_CAMPAIGN</value>  <!-- Marketing Campaigns -->
+	<value>LIST_CAMPAIGNAUDIENCE</value>  <!-- Campaign Audiences -->
+	<value>LIST_CAMPAIGNCATEGORY</value>  <!-- Campaign Categories -->
+	<value>LIST_CAMPAIGNCHANNEL</value>  <!-- Campaign Channels -->
+	<value>LIST_CAMPAIGNEMAIL</value>  <!-- Campaign Email Addresses -->
+	<value>LIST_CAMPAIGNFAMILY</value>  <!-- Campaign Families -->
+	<value>LIST_CAMPAIGNOFFER</value>  <!-- Campaign Offers -->
+	<value>LIST_CAMPAIGNSEARCHENGINE</value>  <!-- Campaign Search Engines -->
+	<value>LIST_CAMPAIGNSUBSCRIPTION</value>  <!-- Campaign Subscriptions -->
+	<value>LIST_CAMPAIGNVERTICAL</value>  <!-- Campaign Verticals -->
+	<value>LIST_CASEALERT</value>
+	<value>LIST_CASEFIELDRULE</value>  <!-- Set Up Case Rules -->
+	<value>LIST_CASEFORM</value>  <!-- Online Case Forms -->
+	<value>LIST_CASEISSUE</value>  <!-- Case Issues -->
+	<value>LIST_CASEORIGIN</value>  <!-- Case Origin Types -->
+	<value>LIST_CASEPRIORITY</value>  <!-- Case Priorities -->
+	<value>LIST_CASEPROFILE</value>  <!-- Case Profile -->
+	<value>LIST_CASESTATUS</value>  <!-- Case Statuses -->
+	<value>LIST_CASETERRITORY</value>  <!-- Manage Case Territories -->
+	<value>LIST_CASETERRITORYASSIGN</value>  <!-- Territory Reassignment -->
+	<value>LIST_CASETYPE</value>  <!-- Case Types -->
+	<value>LIST_CCTRAN</value>  <!-- View Credit Card Transactions -->
+	<value>LIST_CHARGERULE</value>  <!-- View Charge Rules -->
+	<value>LIST_CHART_ACCOUNT</value>  <!-- Chart of Accounts -->
+	<value>LIST_CLASS</value>  <!-- Classes -->
+	<value>LIST_CLASSSEGMENTMAPPING</value>  <!-- Class Mapping -->
+	<value>LIST_CMSCONTENTTYPE</value>  <!-- Class Mapping -->
+	<value>LIST_CMSCONTENT</value>
+	<value>LIST_COLORTHEME</value>  <!-- Color Themes -->
+	<value>LIST_COMMERCECATALOG</value>  <!-- Commerce Catalogs -->
+	<value>LIST_COMMERCECATEGORY</value>  <!-- Commerce Categories -->
+	<value>LIST_COMMISSIONSCHEDULE</value>  <!-- Employee Schedules -->
+	<value>LIST_COMMITORDERSCHEDULE</value>  <!-- Schedule Commit Orders -->
+	<value>LIST_COMPETITOR</value>  <!-- Competitors -->
+	<value>LIST_CONSOLRATES</value>  <!-- Consolidated Exchange Rates -->
+	<value>LIST_CONTACT</value>  <!-- Contacts -->
+	<value>LIST_COUNTRY</value>  <!-- Set Up Countries -->
+	<value>LIST_CRMGROUP</value>  <!-- Groups -->
+	<value>LIST_CRMOTHERLIST</value>  <!-- CRM Lists -->
+	<value>LIST_CRMTEMPLATE</value>  <!-- Marketing Templates -->
+	<value>LIST_CSPSETUP</value>  <!-- Setup CSP -->
+	<value>LIST_CURRENCY</value>  <!-- Currencies -->
+	<value>LIST_CURRENCYRATE</value>  <!-- Currency Exchange Rates -->
+	<value>LIST_CUSTADDRESSENTRYFORM</value>  <!-- Address Forms -->
+	<value>LIST_CUSTBODYFIELD</value>  <!-- Transaction Body Fields -->
+	<value>LIST_CUSTCATEGORY</value>  <!-- Center Categories -->
+	<value>LIST_CUSTCENTER</value>  <!-- Centers -->
+	<value>LIST_CUSTCOLUMNFIELD</value>  <!-- Transaction Column Fields -->
+	<value>LIST_CUSTEMAILLAYOUT</value>  <!-- Transaction Form HTML Layouts -->
+	<value>LIST_CUSTENTITYFIELD</value>  <!-- Entity Fields -->
+	<value>LIST_CUSTENTRYFORM</value>  <!-- Entry Forms -->
+	<value>LIST_CUSTEVENTFIELD</value>  <!-- CRM Fields -->
+	<value>LIST_CUSTFIELDTAB</value>  <!-- Subtabs -->
+	<value>LIST_CUSTFORM</value>  <!-- Transaction Forms -->
+	<value>LIST_CUSTITEMFIELD</value>  <!-- Item Fields -->
+	<value>LIST_CUSTITEMNUMBERFIELD</value>  <!-- Item Number Fields -->
+	<value>LIST_CUSTJOB</value>  <!-- Customers -->
+	<value>LIST_CUSTLAYOUT</value>  <!-- Transaction Form PDF Layouts -->
+	<value>LIST_CUSTLIST</value>  <!-- Lists -->
+	<value>LIST_CUSTOMCODEFILES</value>  <!-- SuiteScripts -->
+	<value>LIST_CUSTOMERFIELDRULE</value>  <!-- Set Up Sales Rules -->
+	<value>LIST_CUSTOMERFORM</value>  <!-- Online Customer Forms -->
+	<value>LIST_CUSTOMERSTATUS</value>  <!-- Customer Statuses -->
+	<value>LIST_CUSTOMSEGMENT</value>  <!-- Custom Segments -->
+	<value>LIST_CUSTOMSUBLIST</value>  <!-- Sublists -->
+	<value>LIST_CUSTOTHERFIELD</value>  <!-- Other Custom Fields -->
+	<value>LIST_CUSTRECORD</value>  <!-- Record Types -->
+	<value>LIST_CUSTSECTION</value>  <!-- Center Tabs -->
+	<value>LIST_CUSTTRANSACTION</value>  <!-- Transaction Types -->
+	<value>LIST_DEPARTMENT</value>  <!-- Departments -->
+	<value>LIST_DEPTSEGMENTMAPPING</value>  <!-- Department Mapping -->
+	<value>LIST_DEVICE_ID</value>  <!-- Device ID -->
+	<value>LIST_DIFFROLE</value>  <!-- Show Role Differences -->
+	<value>LIST_DISTRIBUTIONNETWORK</value>  <!-- Distribution Network -->
+	<value>LIST_DRIVERSLICENSE</value>  <!-- Driver's Licences -->
+	<value>LIST_DUPLICATE_RESOLUTION_STATUS</value>  <!-- Duplicate Resolution Status -->
+	<value>LIST_EMAILTEMPLATE</value>  <!-- Email Templates -->
+	<value>LIST_EMPLCATEGORY</value>  <!-- Employee Directory -->
+	<value>LIST_EMPLOYEE</value>  <!-- Employees -->
+	<value>LIST_EMPLOYEECHANGEREASON</value>
+	<value>LIST_EMPOTHERLIST</value>  <!-- Employee Related Lists -->
+	<value>LIST_ENTITYACCOUNTMAPPING</value>  <!-- Entity Account Mappings -->
+	<value>LIST_ENTITY_DUPLICATES</value>  <!-- Entity Duplicate Resolution -->
+	<value>LIST_ESCALATIONRULE</value>  <!-- Set Up Escalation Rules -->
+	<value>LIST_ESCALATIONTERRITORY</value>  <!-- Manage Escalation Assignment -->
+	<value>LIST_EVENT</value>  <!-- Events -->
+	<value>LIST_EXPCATEGORY</value>  <!-- Expense Categories -->
+	<value>LIST_FAIRVALUEDIMENSION</value>  <!-- Fair Value Dimensions -->
+	<value>LIST_FAIRVALUEFORMULA</value>  <!-- Fair Value Formulas -->
+	<value>LIST_FAIRVALUEPRICE</value>  <!-- Fair Value Price Lists -->
+	<value>LIST_FAXTEMPLATE</value>  <!-- Fax Templates -->
+	<value>LIST_FCSITEFOLDER</value>  <!-- Web Site Hosting Files -->
+	<value>LIST_FCSITEFOLDERADV</value>  <!-- Web Site Hosting Files -->
+	<value>LIST_FISCALCALENDAR</value>  <!-- Fiscal Calendars -->
+	<value>LIST_GAINLOSSACCTMAPPING</value>
+	<value>LIST_GATEWAYNOTIFICATION</value>  <!-- View Gateway Asynchronous Notifications -->
+	<value>LIST_GENERICRESOURCE</value>  <!-- Generic Resources -->
+	<value>LIST_GIFTCERTIFICATES</value>  <!-- Gift Certificates -->
+	<value>LIST_GLNUMBERING</value>
+	<value>LIST_GLOBALACCOUNTMAPPING</value>  <!-- Global Account Mappings -->
+	<value>LIST_GOVERNMENTISSUEDIDTYPE</value>  <!-- Government-Issued ID Types -->
+	<value>LIST_HCMJOB</value>  <!-- Jobs -->
+	<value>LIST_IMAGE</value>  <!-- Images -->
+	<value>LIST_INFOITEM</value>  <!-- Information Items -->
+	<value>LIST_INFOITEMFORM</value>  <!-- Publish Forms -->
+	<value>LIST_INVCOSTTEMPLATE</value>  <!-- Inventory Cost Template -->
+	<value>LIST_INVENTORYSTATUS</value>
+	<value>LIST_ISSUE</value>  <!-- Issues -->
+	<value>LIST_ITEM</value>  <!-- Items -->
+	<value>LIST_ITEMLOCCONFIG_LOG</value>
+	<value>LIST_ITEMACCOUNTMAPPING</value>  <!-- Item Account Mappings -->
+	<value>LIST_ITEMDEMANDPLAN</value>  <!-- Item Demand Plans -->
+	<value>LIST_ITEMOPTION</value>  <!-- Transaction Item Options -->
+	<value>LIST_ITEMREVENUECATEGORY</value>  <!-- Item Revenue Categories -->
+	<value>LIST_ITEMSUPPLYPLAN</value>  <!-- Item Supply Plans -->
+	<value>LIST_ITEM_REVISION</value>  <!-- Item Revisions -->
+	<value>LIST_JOB</value>  <!-- Jobs -->
+	<value>LIST_JOBREQUISITION</value>  <!-- Job Requisitions -->
+	<value>LIST_JOBRESOURCEROLE</value>
+	<value>LIST_KBCATEGORY</value>  <!-- Knowledge Base -->
+	<value>LIST_KPIREPORT</value>  <!-- KPI Scorecards -->
+	<value>LIST_KUDOS</value>  <!-- Kudos -->
+	<value>LIST_LEAD</value>  <!-- Leads -->
+	<value>LIST_LOCASSIGNCONF</value>  <!-- Configurations List -->
+	<value>LIST_LOCATION</value>  <!-- Locations -->
+	<value>LIST_LOCATIONCOSTINGGROUP</value>  <!-- Location Costing Groups -->
+	<value>LIST_LOCSEGMENTMAPPING</value>  <!-- Location Mapping -->
+	<value>LIST_MAILMERGE</value>  <!-- Merge History -->
+	<value>LIST_MAILTEMPLATE</value>  <!-- Letter Templates -->
+	<value>LIST_MAPREDUCESCRIPTSTATUS</value>  <!-- Map/Reduce Script Status -->
+	<value>LIST_MEDIAITEMFOLDER</value>  <!-- File Cabinet -->
+	<value>LIST_MERCHANDISEHIERARCHYLEVEL</value>
+	<value>LIST_MERCHANDISEHIERARCHYNODE</value>
+	<value>LIST_MERCHANDISEHIERARCHYVERSION</value>
+	<value>LIST_MFGCOSTTEMPLATE</value>  <!-- Manufacturing Cost Templates -->
+	<value>LIST_MFGOPERATIONTASK</value>  <!-- Manufacturing Operation Tasks -->
+	<value>LIST_MFGROUTING</value>  <!-- Manufacturing Routing -->
+	<value>LIST_NEWSITEM</value>
+	<value>LIST_NOTIFICATION</value>  <!-- Notifications -->
+	<value>LIST_ORGANIZATIONVALUE</value>  <!-- Organization Values -->
+	<value>LIST_OTHERGOVERNMENTISSUEDID</value>  <!-- Other Government-Issued IDs -->
+	<value>LIST_OTHERNAME</value>  <!-- Other Names -->
+	<value>LIST_PARTNER</value>  <!-- Partners -->
+	<value>LIST_PARTNERCOMMISSIONSCHED</value>  <!-- Partner Schedules -->
+	<value>LIST_PARTNERPLANASSIGN</value>  <!-- Partner Plans -->
+	<value>LIST_PARTNERPLANASSIGNS</value>  <!-- Partner Plan Assignments -->
+	<value>LIST_PASSPORT</value>  <!-- Passports -->
+	<value>LIST_PAYMENTEVENT</value>  <!-- View Payment Events -->
+	<value>LIST_PAYMENTPROFILE</value>
+	<value>LIST_PAYMETHODS</value>  <!-- Payment Methods -->
+	<value>LIST_PAYPALACCOUNT</value>  <!-- PayPal Accounts -->
+	<value>LIST_PAYROLLITEM</value>  <!-- Payroll Items -->
+	<value>LIST_PAYTERMS</value>  <!-- Payment Terms -->
+	<value>LIST_PDFTEMPLATE</value>  <!-- PDF Templates -->
+	<value>LIST_PERIOD</value>  <!-- Manage Accounting Periods -->
+	<value>LIST_PERMISSION</value>
+	<value>LIST_PLANASSIGN</value>  <!-- Employee Plans -->
+	<value>LIST_PLANASSIGNS</value>  <!-- Employee Plan Assignments -->
+	<value>LIST_PLANNEDSTANDARDCOST</value>  <!-- Planned Standard Costs -->
+	<value>LIST_PLUGIN</value>  <!-- Plug-in Implementations -->
+	<value>LIST_PLUGINTYPE</value>  <!-- Custom Plug-in Types -->
+	<value>LIST_POSITION</value>  <!-- Positions -->
+	<value>LIST_PRESCATEGORY</value>  <!-- Categories -->
+	<value>LIST_PRIORITYSETTINGS</value>
+	<value>LIST_PROJECTEXPENSETYPE</value>  <!-- Project Expense Types -->
+	<value>LIST_PROJECTTASK</value>  <!-- Project Tasks -->
+	<value>LIST_PROJECTTEMPLATE</value>  <!-- Project Templates -->
+	<value>LIST_PROSPECT</value>  <!-- Prospects -->
+	<value>LIST_PUBLISHERAPP</value>  <!-- List Applications -->
+	<value>LIST_QUANTITYPRICINGSCHEDULE</value>  <!-- Quantity Pricing Schedules -->
+	<value>LIST_RECVDFILES</value>  <!-- Attachments Received -->
+	<value>LIST_REFERRALCODE</value>  <!-- Promotions -->
+	<value>LIST_REGION</value>  <!-- Set Up Regions -->
+	<value>LIST_RELATEDITEM</value>  <!-- Related Items Categories -->
+	<value>LIST_RELATEDITEMADV</value>  <!-- Related Items Categories -->
+	<value>LIST_REPORESULT</value>  <!-- Report Results -->
+	<value>LIST_REPOSCHEDULE</value>  <!-- Report Schedules -->
+	<value>LIST_RESOURCE</value>  <!-- Resources -->
+	<value>LIST_REVENUEALLOCATIONGROUP</value>  <!-- Revenue Allocation Groups -->
+	<value>LIST_REVENUEELEMENT</value>  <!-- Revenue Elements -->
+	<value>LIST_REVENUEPLAN</value>  <!-- Revenue Recognition Plans -->
+	<value>LIST_REVENUERECOGNITIONRULE</value>  <!-- Revenue Recognition Rules -->
+	<value>LIST_REVRECFIELDMAPPING</value>  <!-- Revenue Field Mapping -->
+	<value>LIST_REVRECSCHEDS</value>  <!-- Revenue Recognition Schedules -->
+	<value>LIST_REVRECSCHEDULE</value>  <!-- Revenue Recognition Templates -->
+	<value>LIST_ROLE</value>  <!-- Manage Roles -->
+	<value>LIST_RSRCALLOCATION</value>  <!-- Rsrc Allocations -->
+	<value>LIST_RSSFEED</value>  <!-- RSS Feeds -->
+	<value>LIST_SALESCAMPAIGN</value>  <!-- Sales Campaigns -->
+	<value>LIST_SALESTEAM</value>  <!-- Sales Teams -->
+	<value>LIST_SALESTERRITORIES</value>  <!-- Sales Territory List -->
+	<value>LIST_SALESTERRITORY</value>  <!-- Manage Sales Territories -->
+	<value>LIST_SALESTERRITORYASSIGN</value>  <!-- Territory Reassignment -->
+	<value>LIST_SAVEDBULKOP</value>  <!-- Saved Mass Updates -->
+	<value>LIST_SAVEDSEARCH</value>  <!-- Saved Searches -->
+	<value>LIST_SCRIPT</value>  <!-- Scripts -->
+	<value>LIST_SCRIPTEDRECORD</value>  <!-- Scripted Records -->
+	<value>LIST_SCRIPTLOGS</value>  <!-- Script Execution Logs -->
+	<value>LIST_SCRIPTRECORD</value>  <!-- Script Deployments -->
+	<value>LIST_SCRIPTSTATUS</value>  <!-- Scheduled Script Status -->
+	<value>LIST_SEARCHRESULTSARCHIVE</value>  <!-- Search Results -->
+	<value>LIST_SENTFILES</value>  <!-- Attachments Sent -->
+	<value>LIST_SHIPITEM</value>  <!-- Shipping Items -->
+	<value>LIST_SITEEMAILTEMPLATE</value>  <!-- Web Store Email Templates -->
+	<value>LIST_SITEITEMTEMPLAT</value>  <!-- Item/Category Templates -->
+	<value>LIST_SITETAGS</value>  <!-- Web Site Tags -->
+	<value>LIST_SITETHEMES</value>  <!-- Web Site Themes -->
+	<value>LIST_SMTP_SERVERS</value>  <!-- SMTP Servers -->
+	<value>LIST_SOLUTION</value>  <!-- Solutions -->
+	<value>LIST_SSCATEGORY</value>  <!-- Publish Saved Search -->
+	<value>LIST_STANDARDCOSTVERSION</value>  <!-- Standard Cost Versions -->
+	<value>LIST_STATE</value>  <!-- Set Up States/Provinces/Counties -->
+	<value>LIST_STATUSACH</value>  <!-- View Direct Deposit Status -->
+	<value>LIST_STATUSEFT</value>  <!-- View Electronic Funds Transfer Status -->
+	<value>LIST_STATUSVP</value>  <!-- View Vendor Payment Status -->
+	<value>LIST_STOREITEMLISTLAYOUT</value>  <!-- Layouts -->
+	<value>LIST_STORETAB</value>  <!-- Tabs -->
+	<value>LIST_SUBSCRIPTION</value>  <!-- Subscriptions -->
+	<value>LIST_SUBSCRIPTIONCHANGEORDER2</value>  <!-- Subscription Change Orders -->
+	<value>LIST_SUBSCRIPTIONCHANGEORDER</value>  <!-- View Subscription Change Orders -->
+	<value>LIST_SUBSCRIPTIONPLAN</value>  <!-- Subscription Plans -->
+	<value>LIST_SUBSCRIPTIONRENEWALHISTORY2</value>  <!-- Subscription Renewal History -->
+	<value>LIST_SUBSCRIPTIONRENEWALHISTORY</value>  <!-- View Subscription Renewal History -->
+	<value>LIST_SUBSIDIARY</value>  <!-- Subsidiaries -->
+	<value>LIST_SUPPORTCASE</value>  <!-- Cases -->
+	<value>LIST_SYSALERT</value>  <!-- System Alerts -->
+	<value>LIST_SYSTEMEMAILTEMPLATE</value>  <!-- Set Up System Email Templates -->
+	<value>LIST_TASK</value>  <!-- Tasks -->
+	<value>LIST_TAXGROUP</value>  <!-- Tax Groups -->
+	<value>LIST_TAXITEM</value>  <!-- Tax Codes -->
+	<value>LIST_TAXPERIOD</value>  <!-- Manage Tax Periods -->
+	<value>LIST_TAXREPORT</value>
+	<value>LIST_TAXSCHEDULE</value>  <!-- Tax Schedules -->
+	<value>LIST_TEMPLATEFILES</value>  <!-- Template Files -->
+	<value>LIST_TEMPLATE_CATEGORY</value>  <!-- Template Categories -->
+	<value>LIST_TERMINATIONREASON</value>  <!-- Termination Reasons -->
+	<value>LIST_TIMEOFFCHANGE</value>  <!-- Time-Off Changes -->
+	<value>LIST_TIMEOFFPLAN</value>  <!-- Time-Off Plans -->
+	<value>LIST_TIMEOFFREQUEST</value>  <!-- Time-Off Requests -->
+	<value>LIST_TIMEOFFTYPE</value>  <!-- Time-Off Types -->
+	<value>LIST_TOPIC</value>  <!-- Topics -->
+	<value>LIST_TRANNUMBERAUDITLOG</value>  <!-- Transaction Numbering Audit Log -->
+	<value>LIST_TRANSACTION</value>  <!-- Transactions -->
+	<value>LIST_TRAN_BINTRNFR</value>  <!-- Bin Transfers -->
+	<value>LIST_TRAN_BINWKSHT</value>  <!-- Bin Putaway Worksheets -->
+	<value>LIST_TRAN_BLANKORD</value>  <!-- Blanket Purchase Orders -->
+	<value>LIST_TRAN_CARDCHRG</value>  <!-- Credit Card Charges -->
+	<value>LIST_TRAN_CASHRFND</value>  <!-- Cash Refunds -->
+	<value>LIST_TRAN_CASHSALE</value>  <!-- Cash Sales -->
+	<value>LIST_TRAN_CHECK</value>  <!-- Checks -->
+	<value>LIST_TRAN_COMMISSN</value>  <!-- Individual Employee Commissions -->
+	<value>LIST_TRAN_CUSTAUTH</value>
+	<value>LIST_TRAN_CUSTCHRG</value>  <!-- Statement Charges -->
+	<value>LIST_TRAN_CUSTCRED</value>  <!-- Credit Memos -->
+	<value>LIST_TRAN_CUSTDEP</value>  <!-- Customer Deposits -->
+	<value>LIST_TRAN_CUSTINVC</value>  <!-- Invoices -->
+	<value>LIST_TRAN_CUSTPYMT</value>  <!-- Customer Payments -->
+	<value>LIST_TRAN_CUSTRFND</value>  <!-- Customer Refunds -->
+	<value>LIST_TRAN_DEPOSIT</value>  <!-- Deposits -->
+	<value>LIST_TRAN_DOWNLOAD</value>  <!-- My Downloads -->
+	<value>LIST_TRAN_ESTIMATE</value>  <!-- Estimates -->
+	<value>LIST_TRAN_EXPREPT</value>  <!-- Expense Reports -->
+	<value>LIST_TRAN_FFTREQ</value>  <!-- Manage Fulfillment Requests -->
+	<value>LIST_TRAN_FXREVAL</value>  <!-- Currency Revaluations -->
+	<value>LIST_TRAN_INVADJST</value>  <!-- Inventory Adjustments -->
+	<value>LIST_TRAN_INVDISTR</value>  <!-- Inventory Distributions -->
+	<value>LIST_TRAN_INVTRNFR</value>  <!-- Inventory Transfers -->
+	<value>LIST_TRAN_INVWKSHT</value>  <!-- Inventory Worksheets -->
+	<value>LIST_TRAN_JOURNAL</value>  <!-- Journal Entries -->
+	<value>LIST_TRAN_LIABPYMT</value>  <!-- Liability Payments -->
+	<value>LIST_TRAN_OPPRTNTY</value>  <!-- Opportunities -->
+	<value>LIST_TRAN_OWNTRNSF</value>
+	<value>LIST_TRAN_PAYCHECK2</value>
+	<value>LIST_TRAN_PEJRNL</value> <!-- Period End Journal Entries -->
+	<value>LIST_TRAN_PURCHCON</value>  <!-- Purchase Contracts -->
+	<value>LIST_TRAN_PURCHORD</value>  <!-- Purchase Orders -->
+	<value>LIST_TRAN_PURCHORD_REQ</value>  <!-- View Purchase Requests/Orders -->
+	<value>LIST_TRAN_PURCHREQ</value>  <!-- Requisitions -->
+	<value>LIST_TRAN_REORDER</value>  <!-- Items Ordered -->
+	<value>LIST_TRAN_REVARRNG</value>  <!-- Revenue Arrangements -->
+	<value>LIST_TRAN_RFQ</value>  <!-- Requests For Quote -->
+	<value>LIST_TRAN_RTNAUTH</value>  <!-- Return Authorizations -->
+	<value>LIST_TRAN_SALESORD</value>  <!-- Sales Orders -->
+	<value>LIST_TRAN_TAXLIAB</value>  <!-- Tax Liabilities -->
+	<value>LIST_TRAN_TAXPYMT</value>  <!-- Tax Payments -->
+	<value>LIST_TRAN_TRANSFER</value>  <!-- Bank Transfers -->
+	<value>LIST_TRAN_VENDAUTH</value>  <!-- Vendor Return Authorizations -->
+	<value>LIST_TRAN_VENDBILL</value>  <!-- Bills -->
+	<value>LIST_TRAN_VENDCRED</value>  <!-- Bill Credits -->
+	<value>LIST_TRAN_VENDPYMT</value>  <!-- Bill Payments -->
+	<value>LIST_UNCATSITEITEM</value>  <!-- View Uncategorized Items -->
+	<value>LIST_UNCATSITEITEMADV</value>  <!-- View Uncategorized Items -->
+	<value>LIST_UNDELIVEREDEMAIL</value>
+	<value>LIST_UNITSTYPE</value>  <!-- Units Of Measure -->
+	<value>LIST_UPSELLWIZARD</value>  <!-- Upsell Manager -->
+	<value>LIST_URLALIASES</value>  <!-- Promotional URLs -->
+	<value>LIST_USAGE</value>  <!-- Usages -->
+	<value>LIST_USER</value>  <!-- Manage Users -->
+	<value>LIST_USRREPORTS</value>
+	<value>LIST_VENDOR</value>  <!-- Vendors -->
+	<value>LIST_WEBAPPS</value>  <!-- SSP Applications -->
+	<value>LIST_WEBAPPSADV</value>  <!-- SSP Applications -->
+	<value>LIST_WORKCALENDAR</value>  <!-- Work Calendars -->
+	<value>LIST_WORKFLOW</value>  <!-- Workflows -->
+	<value>LIST_WORKPLACE</value>  <!-- Workplaces -->
+	<value>REPO_TURNOVER_ANALYSIS</value>  <!-- Total Pipeline by Sales Rep -->
+	<value>REPO_USRNEWREPORT</value>
+	<value>REPO_100</value>  <!-- Total Pipeline by Sales Rep -->
+	<value>REPO_103</value>  <!-- New Customer Sales -->
+	<value>REPO_104</value>  <!-- Opportunities Lost -->
+	<value>REPO_105</value>  <!-- Opportunities Won -->
+	<value>REPO_106</value>  <!-- Sales Activity by Customer -->
+	<value>REPO_107</value>  <!-- Sales Activity by Customer Detail -->
+	<value>REPO_10</value>  <!-- ALT_SALES Pipeline by Sales Rep Detail -->
+	<value>REPO_111</value>  <!-- Authorized Commission -->
+	<value>REPO_113</value>  <!-- GST on Purchases -->
+	<value>REPO_114</value>  <!-- GST on Sales -->
+	<value>REPO_118</value>  <!-- Commissions Pending Authorization -->
+	<value>REPO_11</value>  <!-- ALT_SALES Pipeline by Sales Rep Summary -->
+	<value>REPO_121</value>  <!-- Estimated Commission -->
+	<value>REPO_126</value>  <!-- Pipeline by Customer -->
+	<value>REPO_127</value>  <!-- Pipeline by Customer Detail -->
+	<value>REPO_128</value>  <!-- Pipeline by Sales Rep -->
+	<value>REPO_131</value>  <!-- Pipeline by Status Summary -->
+	<value>REPO_133</value>  <!-- Campaign Response -->
+	<value>REPO_134</value>  <!-- Sales Activity by Sales Rep -->
+	<value>REPO_13</value>  <!-- ALT_SALES Forecast by Sales Rep -->
+	<value>REPO_141</value>  <!-- Partner Activity -->
+	<value>REPO_143</value>  <!-- Sales by Partner -->
+	<value>REPO_145</value>  <!-- Shipping Report -->
+	<value>REPO_147</value>  <!-- Forecast vs. Quota -->
+	<value>REPO_148</value>  <!-- Sales Orders Pending Fulfillment -->
+	<value>REPO_14</value>  <!-- Billings Forecast vs. Quota -->
+	<value>REPO_150</value>  <!-- Inventory Back Order Report -->
+	<value>REPO_151</value>  <!-- Inventory Activity Detail -->
+	<value>REPO_152</value>  <!-- Realized Exchange Rate Gains and Losses -->
+	<value>REPO_15</value>  <!-- ALT_SALES and Billings Forecast vs. Quota -->
+	<value>REPO_162</value>  <!-- Customers by Partner -->
+	<value>REPO_16</value>  <!-- ALT_SALES Forecast vs. Quota -->
+	<value>REPO_170</value>  <!-- Closed Case Analysis -->
+	<value>REPO_172</value>  <!-- Open Case Analysis -->
+	<value>REPO_174</value>  <!-- Customers by Sales Rep -->
+	<value>REPO_176</value>  <!-- Customers by Territory -->
+	<value>REPO_178</value>  <!-- Lead Source Analysis -->
+	<value>REPO_179</value>  <!-- Sales Orders Register -->
+	<value>REPO_180</value>  <!-- Open Sales Orders -->
+	<value>REPO_183</value>  <!-- Shopping Cart Abandonment -->
+	<value>REPO_184</value>  <!-- Shopping Activity Analysis by Category -->
+	<value>REPO_185</value>  <!-- Shopping Activity Analysis -->
+	<value>REPO_188</value>  <!-- Item Page Views and Sales Summary -->
+	<value>REPO_18</value>  <!-- Gross Lead Source Analysis -->
+	<value>REPO_191</value>  <!-- Hosted Page Hits -->
+	<value>REPO_193</value>  <!-- Item Orders by Category -->
+	<value>REPO_194</value>  <!-- Item Orders -->
+	<value>REPO_196</value>  <!-- Page Hits by Category -->
+	<value>REPO_197</value>  <!-- Page Hits -->
+	<value>REPO_199</value>  <!-- Sales by Promotion -->
+	<value>REPO_19</value>  <!-- A/P Payment History by Payment -->
+	<value>REPO_203</value>  <!-- Prospect Analysis -->
+	<value>REPO_205</value>  <!-- Partner Commissions Pending Authorization -->
+	<value>REPO_209</value>  <!-- Unbilled Cost by Customer Detail -->
+	<value>REPO_20</value>  <!-- A/P Payment History by Bill -->
+	<value>REPO_210</value>  <!-- Unbilled Time by Customer Detail -->
+	<value>REPO_211</value>  <!-- Unbilled Time by Customer -->
+	<value>REPO_215</value>  <!-- Sales Tax Liability By Tax Item -->
+	<value>REPO_219</value>  <!-- Time by Customer Detail -->
+	<value>REPO_21</value>  <!-- A/R Payment History by Payment -->
+	<value>REPO_221</value>  <!-- Time by Item -->
+	<value>REPO_222</value>  <!-- Time by Customer -->
+	<value>REPO_223</value>  <!-- Time by Employee -->
+	<value>REPO_225</value>  <!-- Unbilled Cost by Customer -->
+	<value>REPO_229</value>  <!-- Inventory Revenue -->
+	<value>REPO_22</value>  <!-- A/R Payment History by Invoice -->
+	<value>REPO_230</value>  <!-- Inventory Valuation -->
+	<value>REPO_231</value>  <!-- Inventory Profitability -->
+	<value>REPO_232</value>  <!-- Payroll Liability -->
+	<value>REPO_233</value>  <!-- Payroll Journal -->
+	<value>REPO_234</value>  <!-- Payroll Summary by Employee -->
+	<value>REPO_235</value>  <!-- Payroll Summary -->
+	<value>REPO_240</value>  <!-- Sales Back Order Report -->
+	<value>REPO_241</value>  <!-- Physical Inventory Worksheet -->
+	<value>REPO_242</value>  <!-- Payroll Check Register -->
+	<value>REPO_243</value>  <!-- Current Inventory Snapshot -->
+	<value>REPO_246</value>  <!-- Items Pending Fulfillment -->
+	<value>REPO_249</value>  <!-- Estimated Partner Commission -->
+	<value>REPO_250</value>  <!-- Transaction Detail -->
+	<value>REPO_256</value>  <!-- Total Open Estimates -->
+	<value>REPO_257</value>  <!-- Estimates Register -->
+	<value>REPO_261</value>  <!-- Open Invoices -->
+	<value>REPO_262</value>  <!-- A/R Register -->
+	<value>REPO_266</value>  <!-- Customer Profitability -->
+	<value>REPO_267</value>  <!-- Sales by Sales Rep Detail -->
+	<value>REPO_269</value>  <!-- Sales by Customer Detail -->
+	<value>REPO_26</value>  <!-- New Customer Sales Orders -->
+	<value>REPO_270</value>  <!-- Sales by Sales Rep -->
+	<value>REPO_271</value>  <!-- Sales by Item -->
+	<value>REPO_272</value>  <!-- Sales by Customer -->
+	<value>REPO_273</value>  <!-- A/R Aging Detail -->
+	<value>REPO_274</value>  <!-- A/R Aging -->
+	<value>REPO_277</value>  <!-- Open Purchase Orders -->
+	<value>REPO_278</value>  <!-- Purchase Order Register -->
+	<value>REPO_281</value>  <!-- Purchase by Item -->
+	<value>REPO_282</value>  <!-- Purchase by Vendor -->
+	<value>REPO_283</value>  <!-- Open Bills -->
+	<value>REPO_284</value>  <!-- A/P Register -->
+	<value>REPO_286</value>  <!-- A/P Aging -->
+	<value>REPO_28</value>  <!-- Sales Orders by Promotion -->
+	<value>REPO_292</value>  <!-- Trial Balance -->
+	<value>REPO_293</value>  <!-- General Ledger -->
+	<value>REPO_2</value>  <!-- Deferred / Capitalized Expense -->
+	<value>REPO_30</value>  <!-- Sales Orders by Partner -->
+	<value>REPO_32</value>  <!-- Sales Orders by Historical Team -->
+	<value>REPO_34</value>  <!-- Sales Orders by Item -->
+	<value>REPO_36</value>  <!-- Sales Orders by Sales Rep -->
+	<value>REPO_37</value>  <!-- Sales Orders by Customer Detail -->
+	<value>REPO_38</value>  <!-- Sales Orders by Customer -->
+	<value>REPO_39</value>  <!-- Forecast by Status Summary -->
+	<value>REPO_40</value>  <!-- Integration and Automation Usage Detail By Job -->
+	<value>REPO_41</value>  <!-- Integration and Automation Usage Summary By Job -->
+	<value>REPO_42</value>  <!-- Integration and Automation Usage Summary By Record Type -->
+	<value>REPO_43</value>  <!-- Hosted Page Hits by Customer -->
+	<value>REPO_44</value>  <!-- Page Hits by Customers -->
+	<value>REPO_49</value>  <!-- Forecast by Item -->
+	<value>REPO_4</value>  <!-- Amortization Forecast -->
+	<value>REPO_51</value>  <!-- Total Pipeline by Statuses Summary -->
+	<value>REPO_53</value>  <!-- Calculated Forecast by Sales Rep -->
+	<value>REPO_54</value>  <!-- Visitor Activity -->
+	<value>REPO_55</value>  <!-- Lead Conversion -->
+	<value>REPO_57</value>  <!-- Forecast by Sales Rep -->
+	<value>REPO_58</value>  <!-- Sales Tax Liability By Tax Agency -->
+	<value>REPO_59</value>  <!-- GST/HST on Purchases -->
+	<value>REPO_5</value>  <!-- Aggregated Sales Orders by Sales Rep Summary -->
+	<value>REPO_60</value>  <!-- GST/HST on Sales -->
+	<value>REPO_63</value>  <!-- GST/HST Audit Summary -->
+	<value>REPO_64</value>  <!-- Inventory Turnover -->
+	<value>REPO_65</value>  <!-- Scheduled Deferred Revenue -->
+	<value>REPO_67</value>  <!-- Revenue Recognition Forecast -->
+	<value>REPO_68</value>  <!-- Total Open Opportunities -->
+	<value>REPO_69</value>  <!-- Opportunities to Close -->
+	<value>REPO_6</value>  <!-- Authorized Partner Commission -->
+	<value>REPO_72</value>  <!-- Sales by Historical Team -->
+	<value>REPO_74</value>  <!-- Forecast (Outstanding) by Customer -->
+	<value>REPO_78</value>  <!-- State Withholding -->
+	<value>REPO_79</value>  <!-- Hours & Earnings -->
+	<value>REPO_80</value>  <!-- Closed Case Escalation -->
+	<value>REPO_81</value>  <!-- Open Case Escalation -->
+	<value>REPO_84</value>  <!-- Payroll Detail -->
+	<value>REPO_85</value>  <!-- New Visitor -->
+	<value>REPO_8</value>  <!-- ALT_SALES Total Pipeline by Sales Rep Detail -->
+	<value>REPO_90</value>  <!-- Keywords -->
+	<value>REPO_91</value>  <!-- Referrer -->
+	<value>REPO_94</value>  <!-- Total Pipeline by Customer -->
+	<value>REPO_95</value>  <!-- Total Pipeline by Customer Detail -->
+	<value>REPO_96</value>  <!-- Estimates to Close -->
+	<value>REPO_98</value>  <!-- Forecast by Customer Detail -->
+	<value>REPO_99</value>  <!-- Forecast by Customer -->
+	<value>REPO_9</value>  <!-- ALT_SALES Total Pipeline by Sales Rep Summary -->
+	<value>REPO_ASSIGNFINANCIALLAYOUTS</value>  <!-- Row Layout Assignment -->
+	<value>REPO_BANKREGISTER</value>  <!-- Bank Register -->
+	<value>REPO_CUST_PAGE</value>  <!-- All Saved Reports -->
+	<value>REPO_FINANCIALLAYOUTS</value>  <!-- Financial Row Layouts -->
+	<value>REPO_GST34</value>  <!-- GST34 Worksheet -->
+	<value>REPO_HEADCOUNT_ANALYSIS</value>
+	<value>REPO_JPTAXFORM</value>  <!-- Tax Form -->
+	<value>REPO_JP_BS</value>  <!-- Japanese Balance Sheet -->
+	<value>REPO_JP_CF</value>  <!-- Japanese Cash Flow Statement -->
+	<value>REPO_JP_EQUITY_CHANGE</value>  <!-- Japanese Equity Change Report -->
+	<value>REPO_JP_FR_PACKAGE</value>  <!-- Japanese Financial Report Package -->
+	<value>REPO_JP_IS</value>  <!-- Japanese Income Statement -->
+	<value>REPO_NEG100</value>  <!-- Case Activity by Support Rep -->
+	<value>REPO_NEG105</value>  <!-- Utilization by Employee Summary (deprecated) -->
+	<value>REPO_NEG106</value>  <!-- Current Backlog by Resource -->
+	<value>REPO_NEG108</value>  <!-- Sales Orders by Sales Team -->
+	<value>REPO_NEG110</value>  <!-- Sales by Sales Team -->
+	<value>REPO_NEG112</value>  <!-- Aggregated Sales Orders by Customer Summary -->
+	<value>REPO_NEG113</value>  <!-- Aggregated Sales Orders by Item Summary -->
+	<value>REPO_NEG114</value>  <!-- Internal Search -->
+	<value>REPO_NEG116</value>  <!-- Customer Aging History -->
+	<value>REPO_NEG118</value>  <!-- Estimated Profitability by Job -->
+	<value>REPO_NEG120</value>  <!-- Sales Tax on Sales -->
+	<value>REPO_NEG122</value>  <!-- Campaign ROI Analysis -->
+	<value>REPO_NEG124</value>  <!-- Sales by Lead Source -->
+	<value>REPO_NEG127</value>  <!-- PST on Sales -->
+	<value>REPO_NEG128</value>  <!-- PST on Purchases -->
+	<value>REPO_NEG129</value>  <!-- Reconciliation -->
+	<value>REPO_NEG130</value>  <!-- Bank Register -->
+	<value>REPO_NEG131</value>  <!-- Sales Tax Analysis -->
+	<value>REPO_NEG132</value>  <!-- Realized Exchange Rate Gains and Losses -->
+	<value>REPO_NEG133</value>  <!-- Unrealized Exchange Rate Gains and Losses -->
+	<value>REPO_NEG135</value>  <!-- Sales by Paid Keyword -->
+	<value>REPO_NEG137</value>  <!-- Leads by Paid Keyword -->
+	<value>REPO_NEG138</value>  <!-- Closed Issues -->
+	<value>REPO_NEG140</value>  <!-- Open Issues -->
+	<value>REPO_NEG144</value>  <!-- Paid Employee Commission -->
+	<value>REPO_NEG146</value>  <!-- Paid Partner Commission -->
+	<value>REPO_NEG148</value>  <!-- Sales Order Revenue Forecast -->
+	<value>REPO_NEG150</value>  <!-- Forecast vs. Quota by Class -->
+	<value>REPO_NEG151</value>  <!-- Forecast Accuracy -->
+	<value>REPO_NEG152</value>  <!-- Forecast Accuracy (ALT_SALES) -->
+	<value>REPO_NEG153</value>  <!-- Calculated Forecast Accuracy -->
+	<value>REPO_NEG154</value>  <!-- Calculated Forecast Accuracy (ALT_SALES) -->
+	<value>REPO_NEG155</value>  <!-- Forecast vs. Quota by Department -->
+	<value>REPO_NEG156</value>  <!-- Forecast vs. Quota by Location -->
+	<value>REPO_NEG157</value>  <!-- ALT_SALES Forecast vs. Quota by Class -->
+	<value>REPO_NEG158</value>  <!-- ALT_SALES Forecast vs. Quota by Department -->
+	<value>REPO_NEG159</value>  <!-- ALT_SALES Forecast vs. Quota by Location -->
+	<value>REPO_NEG160</value>  <!-- Forecast Accuracy -->
+	<value>REPO_NEG161</value>  <!-- Calculated Forecast Accuracy -->
+	<value>REPO_NEG162</value>  <!-- Earned Value by Job -->
+	<value>REPO_NEG175</value>  <!-- Service Fees -->
+	<value>REPO_NEG178</value>  <!-- Utilization by Employee (deprecated) -->
+	<value>REPO_NEG179</value>  <!-- Deferred Revenue By Customer -->
+	<value>REPO_NEG180</value>  <!-- Deferred Revenue By Item -->
+	<value>REPO_NEG181</value>  <!-- Deferred Revenue By State -->
+	<value>REPO_NEG182</value>  <!-- Revenue By Customer -->
+	<value>REPO_NEG183</value>  <!-- Revenue By Item -->
+	<value>REPO_NEG184</value>  <!-- Revenue By State -->
+	<value>REPO_NEG185</value>  <!-- Commission Overview -->
+	<value>REPO_NEG186</value>  <!-- Partner Commission Overview -->
+	<value>REPO_NEG187</value>  <!-- Receivables by Customer -->
+	<value>REPO_NEG188</value>  <!-- Billing and Revenue Summary -->
+	<value>REPO_NEG196</value>  <!-- Budget Income Statement -->
+	<value>REPO_NEG197</value>  <!-- Budget vs. Actual -->
+	<value>REPO_NEG198</value>  <!-- Comparative Balance Sheet -->
+	<value>REPO_NEG199</value>  <!-- Comparative Income Statement -->
+	<value>REPO_NEG200</value>  <!-- Income Statement -->
+	<value>REPO_NEG201</value>  <!-- Cash Statement -->
+	<value>REPO_NEG202</value>  <!-- Balance Sheet -->
+	<value>REPO_NEG203</value>  <!-- Cash Flow Statement -->
+	<value>REPO_NEG209</value>  <!-- Open Return Authorizations -->
+	<value>REPO_NEG210</value>  <!-- Return Authorizations Pending Receipt -->
+	<value>REPO_NEG211</value>  <!-- Return Authorizations Register -->
+	<value>REPO_NEG212</value>  <!-- Time Entry Exceptions -->
+	<value>REPO_NEG213</value>  <!-- Sales Orders by Historical Team (Transaction Date) -->
+	<value>REPO_NEG215</value>  <!-- Sales by Historical Team (Transaction Date) -->
+	<value>REPO_NEG221</value>  <!-- Transfer Order Register -->
+	<value>REPO_NEG222</value>  <!-- Purchase Order History -->
+	<value>REPO_NEG223</value>  <!-- Item Demand Forecast vs Actual -->
+	<value>REPO_NEG224</value>  <!-- Item Demand Plan by Item -->
+	<value>REPO_NEG225</value>  <!-- Demand History by Item -->
+	<value>REPO_NEG226</value>  <!-- Production Variances by Item -->
+	<value>REPO_NEG227</value>  <!-- Purchase Price Variances by Item -->
+	<value>REPO_NEG228</value>  <!-- Planned Standard Costs by Cost Version -->
+	<value>REPO_NEG231</value>  <!-- Intercompany Elimination -->
+	<value>REPO_NEG232</value>  <!-- Intercompany Reconciliation -->
+	<value>REPO_NEG233</value>  <!-- Open Estimates By Lines -->
+	<value>REPO_NEG236</value>  <!-- Revenue Reclassification -->
+	<value>REPO_NEG237</value>  <!-- Employee Change History -->
+	<value>REPO_NEG239</value>  <!-- Allocated vs. Actual Hours by Resource -->
+	<value>REPO_NEG240</value>  <!-- Allocated Utilization by Resource -->
+	<value>REPO_NEG241</value>  <!-- Commission Overview Detail -->
+	<value>REPO_NEG242</value>  <!-- Partner Commission Overview Detail -->
+	<value>REPO_NEG245</value>  <!-- GL Audit Numbering -->
+	<value>REPO_NEG246</value>  <!-- Planned Utilization by Resource -->
+	<value>REPO_NEG247</value>  <!-- Actual Utilization by Resource -->
+	<value>REPO_NEG248</value>  <!-- Allocated Utilization by Project -->
+	<value>REPO_NEG249</value>  <!-- Planned Utilization by Project -->
+	<value>REPO_NEG250</value>  <!-- Actual Utilization by Project -->
+	<value>REPO_NEG253</value>  <!-- Project Billing Report -->
+	<value>REPO_NEG254</value>  <!-- Project Cost Budget vs. Actual -->
+	<value>REPO_NEG255</value>  <!-- Project Billing Budget vs. Actual -->
+	<value>REPO_NEG256</value>  <!-- Project Task Cost Budget vs. Actual -->
+	<value>REPO_NEG257</value>  <!-- Project Task Billing Budget vs. Actual -->
+	<value>REPO_NEG258</value>  <!-- Project Profitability by Month -->
+	<value>REPO_NEG259</value>  <!-- Deferred Revenue Reclassification Activity -->
+	<value>REPO_NEG260</value>  <!-- Deferred Revenue Reclassification -->
+	<value>REPO_NEG265</value>  <!-- Revenue Contract Activity -->
+	<value>REPO_NEG271</value>  <!-- Employee Payroll Item History -->
+	<value>REPO_NEG277</value>  <!-- Deferred Revenue Rollforward -->
+	<value>REPO_NEG281</value>  <!-- Campaign Clickthrough Summary -->
+	<value>REPO_NEG282</value>  <!-- CTA Balance Audit -->
+	<value>REPO_NEG284</value>  <!-- Project Profitability -->
+	<value>REPO_NEG285</value>  <!-- Project Charges Forecast -->
+	<value>REPO_NEG289</value>  <!-- Deferred Revenue Reclassification -->
+	<value>REPO_NEG291</value>  <!-- Revenue Recognition Forecast -->
+	<value>REPO_NEG292</value>  <!-- Deferred Revenue Rollforward -->
+	<value>REPO_NEG295</value>  <!-- Deferred Revenue Waterfall -->
+	<value>REPO_NEG296</value>  <!-- Monthly Recurring Revenue -->
+	<value>REPO_NEG297</value>  <!-- Billings To Date -->
+	<value>REPO_NEG298</value>  <!-- Stock Ledger -->
+	<value>REPO_NEG299</value>  <!-- Total Contract Value -->
+	<value>REPO_NEG300</value>  <!-- Project Profitability -->
+	<value>REPO_NEG302</value>  <!-- Project Profitability by Month -->
+	<value>REPO_NEG305</value>
+	<value>REPO_NEG306</value>  <!-- Time-Off Balance Details -->
+	<value>REPO_NEG307</value>  <!-- Time-Off Balance Summary -->
+	<value>REPO_NEG308</value>  <!-- Available Time-Off -->
+	<value>REPO_NEG309</value>
+	<value>REPO_NEG310</value>
+	<value>REPO_NEG311</value>
+	<value>REPO_NEG314</value>
+	<value>REPO_NEG316</value>
+	<value>REPO_NEG322</value> <!-- Period End Balance Sheet -->
+	<value>REPO_NEG324</value> <!-- Period End Income Statement -->
+	<value>REPO_REGISTER_ACCTPAY</value>  <!-- Accounts Payable Register -->
+	<value>REPO_REGISTER_ACCTREC</value>  <!-- Accounts Receivable Register -->
+	<value>SRCH_CUSTBAL</value>  <!-- Customers by Open A/R Balance -->
+	<value>SRCH_CUSTOVDBAL</value>  <!-- Customers by Outstanding Balance -->
+	<value>SRCH_SAVEDSEARCH</value>  <!-- All Saved Searches -->
+	<value>SRCH_TRANSACTION</value>  <!-- Search Transactions -->
+	<value>SRCH_UNBILLORDERS</value>  <!-- Customers by Unbilled Orders -->
+	<value>SUPT_ALLOW_LOGIN</value>  <!-- NetSuite Support Login -->
+	<value>SUPT_BUG_BILLING</value>  <!-- Billing Questions -->
+	<value>SUPT_BUG_SUPPORT</value>  <!-- Contact Support Online -->
+	<value>SUPT_BUG_SUPPORT_POPUP</value>  <!-- Contact Support By Phone -->
+	<value>SUPT_CENTER_ROLE</value>  <!-- NetSuite Support Center -->
+	<value>SUPT_GLOSSARY</value>  <!-- Glossary -->
+	<value>SUPT_HELP</value>  <!-- Help -->
+	<value>SUPT_MENUOPTIONS</value>  <!-- Customer Support Menu Options -->
+	<value>SUPT_POLICYFORM</value>  <!-- Support Policies -->
+	<value>SUPT_RELEASENOTES</value>  <!-- Release Notes -->
+	<value>SUPT_VERSION_10_5</value>  <!-- Version 10.6 -->
+	<value>TRAN_ALLOCATEPAYCHECKSTOJOBS</value>  <!-- Allocate Paycheck Expenses to Jobs -->
+	<value>TRAN_ALLOCATEREVENUEARRANGEMENTS</value>  <!-- Allocate Revenue Arrangements -->
+	<value>TRAN_APPROVAL_EXPREPT</value>  <!-- Approve Expense Reports -->
+	<value>TRAN_APPROVAL_PURCHORD</value>  <!-- Approve Purchase Requests -->
+	<value>TRAN_APPROVECOMMISSN</value>  <!-- Approve Employee Commissions -->
+	<value>TRAN_APPROVEPARTNERCOMMISSN</value>  <!-- Approve Partner Commissions -->
+	<value>TRAN_AUDIT</value>  <!-- View Audit Trail -->
+	<value>TRAN_BALANCELCGACCOUNTS</value>  <!-- Balance Location Costing Group Accounts -->
+	<value>TRAN_BAS</value>  <!-- Business Activity Statement -->
+	<value>TRAN_BILLOFMATERIALSINQUIRY</value>  <!-- Bill of Materials Inquiry -->
+	<value>TRAN_BILLRUN</value>  <!-- Process Billing Operations -->
+	<value>TRAN_BLANKORDAPPRV</value>  <!-- Approve Blanket Purchase Orders -->
+	<value>TRAN_BUDGET</value>  <!-- Set Up Budgets -->
+	<value>TRAN_CALCULATEITEMDEMANDPLAN</value>  <!-- Calculate Item Demand Plan -->
+	<value>TRAN_CAMPAIGNSETUP</value>  <!-- Marketing Preferences -->
+	<value>TRAN_CHECKITEMAVAILABILITY</value>  <!-- Check Item Availability -->
+	<value>TRAN_CLEARHOLD</value>  <!-- Manage Payment Holds -->
+	<value>TRAN_COMPONENTWHEREUSEDINQUIRY</value>  <!-- Component Where Used Inquiry -->
+	<value>TRAN_COPY_BUDGET</value>  <!-- Copy Budgets -->
+	<value>TRAN_COSTEDBOMINQUIRY</value>  <!-- Costed Bill of Materials Inquiry -->
+	<value>TRAN_CREATEAMORTIZATIONJE</value>  <!-- Create Amortization Journal Entries -->
+	<value>TRAN_CREATEDEGROSSJE</value>  <!-- Create Deferred Revenue Reclassification Journal Entries -->
+	<value>TRAN_CREATEINTERCOADJJE</value>  <!-- Create Intercompany Adjustment Journal Entries -->
+	<value>TRAN_CREATEREVRECJE</value>  <!-- Create Revenue Recognition Journal Entries -->
+	<value>TRAN_CREATE_INVCOUNT</value>  <!-- Create Inventory Count -->
+	<value>TRAN_CREATE_JOBS_FROM_ORDERS</value>  <!-- Create Jobs From Sales Orders -->
+	<value>TRAN_CREATE_WORK_ORDERS_FOR_STOCK</value>  <!-- Mass Create Work Orders -->
+	<value>TRAN_CREATE_WORK_ORDERS_FOR_STOCK_DEMAND_PLANNING</value>  <!-- Mass Create Work Orders -->
+	<value>TRAN_CUSTINVCAPPRV</value>  <!-- Approve Invoices -->
+	<value>TRAN_DOMAINS</value>  <!-- Set Up Domains -->
+	<value>TRAN_DOMAINSADV</value>  <!-- Set Up Domains -->
+	<value>TRAN_EDITREVENUEARRANGEMENTS</value>  <!-- Set Up Domains -->
+	<value>TRAN_FINCHRG</value>  <!-- Assess Finance Charges -->
+	<value>TRAN_FORECAST</value>  <!-- Edit Sales Rep Forecast -->
+	<value>TRAN_GENERATEITEMSUPPLYPLAN</value>  <!-- Generate Item Supply Plan -->
+	<value>TRAN_GIFTCERTCREATEJE</value>  <!-- Recognize Gift Certificate Income -->
+	<value>TRAN_GSTREFUND</value>  <!-- Process GST/HST Refund -->
+	<value>TRAN_INVOICECUSTOMERS</value>  <!-- Invoice Billable Customers -->
+	<value>TRAN_ITEMGROSSREQUIREMENTS</value>  <!-- Gross Requirements Inquiry -->
+	<value>TRAN_ITEMSHIPPACK</value>  <!-- Mark Orders Packed -->
+	<value>TRAN_ITEMSHIPSHIP</value>  <!-- Mark Orders Shipped -->
+	<value>TRAN_JOURNALAPPROVAL</value>  <!-- Approve Journal Entries -->
+	<value>TRAN_MANAGEARRANGEMENTS</value>  <!-- Update Revenue Arrangements -->
+	<value>TRAN_MANAGEREVENUEARRANGEMENTS</value>  <!-- Update Revenue Arrangements and Revenue Recognition Plans -->
+	<value>TRAN_MANAGEREVENUEPLANS</value>  <!-- Update Revenue Recognition Plans -->
+	<value>TRAN_MARKVSOEDELIVERED</value>  <!-- Mark VSOE Delivered Status -->
+	<value>TRAN_MATCHING_RULES</value>
+	<value>TRAN_MERGEREVENUEARRANGEMENTS</value>  <!-- Merge Revenue Arrangements for Linked Sources -->
+	<value>TRAN_MGRFORECAST</value>  <!-- Edit Sales Manager Forecast -->
+	<value>TRAN_MIGRATEOPENREVENUETRANSACTIONS</value>  <!-- Migrate Open Revenue Transactions -->
+	<value>TRAN_OPENBAL</value>  <!-- Enter Opening Balances -->
+	<value>TRAN_ORDERDEMANDPLANITEMS</value>  <!-- Order Items -->
+	<value>TRAN_ORDERITEMS</value>  <!-- Order Items -->
+	<value>TRAN_PAYROLLRUN</value>  <!-- Create Payroll -->
+	<value>TRAN_PAYROLLSTATUS</value>  <!-- View Payroll Status -->
+	<value>TRAN_PDF_F940</value>  <!-- Annual Federal Unemployment (940) -->
+	<value>TRAN_PDF_F941</value>  <!-- Quarterly Federal Tax Return (941) -->
+	<value>TRAN_PLANNEDSTANDARDCOSTROLLUP</value>  <!-- Planned Standard Cost Rollup -->
+	<value>TRAN_POSTVENDORBILLVARIANCES</value>  <!-- Post Vendor Bill Variances -->
+	<value>TRAN_PRINT1096</value>  <!-- Form 1096 -->
+	<value>TRAN_PRINT1099</value>  <!-- Form 1099-MISC -->
+	<value>TRAN_PRINT</value>  <!-- Print Checks and Forms -->
+	<value>TRAN_PRINTPRICELIST</value>  <!-- Individual Price List -->
+	<value>TRAN_PRINTSTATEMENT</value>  <!-- Individual Statement -->
+	<value>TRAN_PRINTW2</value>  <!-- Form W-2 -->
+	<value>TRAN_PRINTW2AUDIT</value>  <!-- W-2 and 1099 Audit Information -->
+	<value>TRAN_PRINTW3</value>  <!-- Form W-3 -->
+	<value>TRAN_PRINT_PACKINGSLIP</value>  <!-- Print Packing Slips -->
+	<value>TRAN_PRINT_PICKINGTICKET</value>  <!-- Print Picking Tickets -->
+	<value>TRAN_PRINT_PRICELIST</value>  <!-- Generate Price Lists -->
+	<value>TRAN_PRINT_STATEMENT</value>  <!-- Generate Statements -->
+	<value>TRAN_PROCESSCOMMISSN</value>  <!-- Authorize Employee Commissions -->
+	<value>TRAN_PROCESSICRTNAUTHS</value>  <!-- Manage Intercompany Return Authorizations -->
+	<value>TRAN_PROCESSICSALESORDERS</value>  <!-- Manage Intercompany Sales Orders -->
+	<value>TRAN_PROCESSORDER</value>  <!-- Process Individual Order -->
+	<value>TRAN_PROCESSPARTNERCOMMISSN</value>  <!-- Authorize Partner Commissions -->
+	<value>TRAN_PROMOTIONS_PREFERENCES</value>
+	<value>TRAN_PURCHCONAPPRV</value>  <!-- Approve Purchase Contracts -->
+	<value>TRAN_PURCHORDPROC</value>  <!-- Bill Purchase Orders -->
+	<value>TRAN_PURCHORDRECEIVE</value>  <!-- Receive Orders -->
+	<value>TRAN_PURCHREQAPPRV</value>  <!-- Approve Requisitions -->
+	<value>TRAN_QUOTA</value>  <!-- Establish Quotas -->
+	<value>TRAN_REALLOCITEMS</value>  <!-- Reallocate Items -->
+	<value>TRAN_RECALCULATEREVENUEFORECASTPLANS</value>  <!-- Recalculate Revenue Forecast Plans -->
+	<value>TRAN_RECONCILE</value>  <!-- Reconcile Bank Statement -->
+	<value>TRAN_RECONCILEACCOUNTSTATEMENT</value>  <!-- Reconcile Bank Statement -->
+	<value>TRAN_RECONCILE_CC</value>  <!-- Reconcile Credit Card Statement -->
+	<value>TRAN_REVALUESTANDARDCOSTINVENTORY</value>  <!-- Revalue Standard Cost Inventory -->
+	<value>TRAN_REVARRNGAPPRV</value>  <!-- Approve Revenue Arrangements -->
+	<value>TRAN_REVIEWNEGATIVEINVENTORY</value>  <!-- Review Negative Inventory -->
+	<value>TRAN_RTNAUTHAPPRV</value>  <!-- Approve Return Authorizations -->
+	<value>TRAN_RTNAUTHCREDIT</value>  <!-- Refund Returns -->
+	<value>TRAN_RTNAUTHRECEIVE</value>  <!-- Receive Returned Order -->
+	<value>TRAN_RTNAUTHREVERSEREVCOMMITMENT</value>  <!-- Generate Revenue Commitment Reversals -->
+	<value>TRAN_SALESORDAPPRV</value>  <!-- Approve Sales Orders -->
+	<value>TRAN_SALESORDCOMMITREVENUE</value>  <!-- Generate Revenue Commitments -->
+	<value>TRAN_SALESORDFULFILL</value>  <!-- Fulfill Orders -->
+	<value>TRAN_SALESORDPROC</value>  <!-- Invoice Sales Orders -->
+	<value>TRAN_SALESORDREVENUECONTRACT</value>  <!-- Generate Single Order Revenue Contracts -->
+	<value>TRAN_SEARCH</value>  <!-- Search -->
+	<value>TRAN_STPICKUP</value>  <!-- Manage Store Pickup -->
+	<value>TRAN_TIMEAPPROVAL</value>  <!-- Approve Time -->
+	<value>TRAN_TIMEBILL</value>  <!-- Track Time -->
+	<value>TRAN_TIMEBILL_WEEKLY</value>  <!-- Weekly Time Tracking -->
+	<value>TRAN_TIMEPOST</value>  <!-- Post Time -->
+	<value>TRAN_TIMESHEETAPPROVAL</value>  <!-- Approve Time -->
+	<value>TRAN_TIMEVOID</value>  <!-- Void Time -->
+	<value>TRAN_TRNFRORDAPPRV</value>  <!-- Approve Transfer Orders -->
+	<value>TRAN_UPDATEREVENUERECOGNITIONPLANS</value>  <!-- Edit Revenue Recognition Plans -->
+	<value>TRAN_UPDATEEXPENSEPLANS</value>  <!-- Edit Revenue Recognition Plans -->
+	<value>TRAN_VENDAUTHAPPRV</value>  <!-- Approve Vendor Returns -->
+	<value>TRAN_VENDAUTHCREDIT</value>  <!-- Credit Vendor Returns -->
+	<value>TRAN_VENDAUTHRETURN</value>  <!-- Ship Vendor Returns -->
+	<value>TRAN_VENDBILLAPPRV</value>  <!-- Approve Bills -->
+	<value>TRAN_VENDPYMTS</value>  <!-- Pay Bills -->
+	<value>TRAN_WEEKLY_TIMESHEET</value>  <!-- Weekly Timesheet -->
+	<value>TRAN_WORKORDBUILD</value>  <!-- Build Work Orders -->
+	<value>TRAN_WORKORDCLOSE</value>  <!-- Close Work Orders -->
+	<value>TRAN_WORKORDCOMPLETE</value>  <!-- Enter Completions -->
+	<value>TRAN_WORKORDISSUE</value>  <!-- Issue Components -->
+	<value>TRAN_WORKORDMARKBUILT</value>  <!-- Mark Work Orders Built -->
+	<value>TRAN_WORKORDMARKFIRMED</value>  <!-- Mark Work Orders Firmed -->
+	<value>TRAN_WORKORDMARKRELEASED</value>  <!-- Mark Work Orders Released -->
+
+</list>

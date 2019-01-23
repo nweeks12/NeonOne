@@ -1,0 +1,9 @@
+<list id='webapp_entrytype'>
+	<value>LOGIN</value>
+	<value>LOGOUT</value>
+	<value>CHECKOUT</value>
+	<value>REGISTER</value>
+	<value>CART</value>
+	<value>CUSTCENTER</value>
+	<value>HOMEPAGE</value>
+</list>

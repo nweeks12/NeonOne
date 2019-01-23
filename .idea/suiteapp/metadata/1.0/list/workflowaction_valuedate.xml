@@ -1,0 +1,136 @@
+<list id='workflowaction_valuedate'>
+    <value>DAGO10</value> <!-- ten days ago !-->
+    <value>DAGO2</value> <!-- two days ago !-->
+    <value>DAGO3</value> <!-- three days ago !-->
+    <value>DAGO30</value> <!-- thirty days ago !-->
+    <value>DAGO4</value> <!-- four days ago !-->
+    <value>DAGO5</value> <!-- five days ago !-->
+    <value>DAGO60</value> <!-- sixty days ago !-->
+    <value>DAGO90</value> <!-- ninety days ago !-->
+    <value>DFN10</value> <!-- ten days from now !-->
+    <value>DFN2</value> <!-- two days from now !-->
+    <value>DFN3</value> <!-- three days from now !-->
+    <value>DFN30</value> <!-- thirty days from now !-->
+    <value>DFN4</value> <!-- four days from now !-->
+    <value>DFN5</value> <!-- five days from now !-->
+    <value>DFN60</value> <!-- sixty days from now !-->
+    <value>DFN90</value> <!-- ninety days from now !-->
+    <value>FHBL</value> <!-- end of fiscal half before last !-->
+    <value>FQB</value> <!-- end of three fiscal quarters ago !-->
+    <value>FQBL</value> <!-- end of fiscal quarter before last !-->
+    <value>FQBLTD</value> <!-- same day two fiscal quarters ago !-->
+    <value>FQBTD</value> <!-- same day three fiscal quarters ago !-->
+    <value>FYB</value> <!-- end of three fiscal years ago !-->
+    <value>FYBL</value> <!-- end of fiscal year before last !-->
+    <value>FYBLTD</value> <!-- same day two fiscal years ago !-->
+    <value>FYBTD</value> <!-- same day three fiscal years ago !-->
+    <value>LBW</value> <!-- end of last business week !-->
+    <value>LFH</value> <!-- end of last fiscal half !-->
+    <value>LFHLFY</value> <!-- end of last fiscal half one fiscal year ago !-->
+    <value>LFHTD</value> <!-- same day last fiscal half !-->
+    <value>LFQ</value> <!-- end of last fiscal quarter !-->
+    <value>LFQFYBL</value> <!-- end of last fiscal quarter two fiscal years ago !-->
+    <value>LFQLFY</value> <!-- end of last fiscal quarter one fiscal year ago !-->
+    <value>LFQTD</value> <!-- same day last fiscal quarter !-->
+    <value>LFY</value> <!-- end of last fiscal year !-->
+    <value>LFYTD</value> <!-- same day last fiscal year !-->
+    <value>LM</value> <!-- end of last month !-->
+    <value>LMFQBL</value> <!-- end of last month two fiscal quarters ago !-->
+    <value>LMFYBL</value> <!-- end of last month two fiscal years ago !-->
+    <value>LMLFQ</value> <!-- end of last month one fiscal quarter ago !-->
+    <value>LMLFY</value> <!-- end of last month one fiscal year ago !-->
+    <value>LMTD</value> <!-- same day last month !-->
+    <value>LW</value> <!-- end of last week !-->
+    <value>LWTD</value> <!-- same day last week !-->
+    <value>MAN</value> <!-- end of month after next !-->
+    <value>MANTD</value> <!-- same day month after next !-->
+    <value>MB</value> <!-- end of three months ago !-->
+    <value>MBL</value> <!-- end of month before last !-->
+    <value>MBLTD</value> <!-- same day two months ago !-->
+    <value>MBTD</value> <!-- same day three months ago !-->
+    <value>N4W</value> <!-- end of next four weeks !-->
+    <value>NBW</value> <!-- end of next business week !-->
+    <value>NFH</value> <!-- end of next fiscal half !-->
+    <value>NFQ</value> <!-- end of next fiscal quarter !-->
+    <value>NFY</value> <!-- end of next fiscal year !-->
+    <value>NM</value> <!-- end of next month !-->
+    <value>NOH</value> <!-- same day next half !-->
+    <value>NOM</value> <!-- same day next month !-->
+    <value>NOQ</value> <!-- same day next quarter !-->
+    <value>NOW</value> <!-- same day next week !-->
+    <value>NOY</value> <!-- same day next year !-->
+    <value>NW</value> <!-- end of next week !-->
+    <value>SDFQBL</value> <!-- same day fiscal quarter before last !-->
+    <value>SDFYBL</value> <!-- same day fiscal year before last !-->
+    <value>SDLFQ</value> <!-- same day last fiscal quarter !-->
+    <value>SDLFY</value> <!-- same day last fiscal year !-->
+    <value>SDLM</value> <!-- same day last month !-->
+    <value>SDLW</value> <!-- same day last week !-->
+    <value>SDMBL</value> <!-- same day month before last !-->
+    <value>SDWBL</value> <!-- same day week before last !-->
+    <value>SFHLFY</value> <!-- end of same fiscal half last fiscal year !-->
+    <value>SFQFYBL</value> <!-- end of same fiscal quarter fiscal year before last !-->
+    <value>SFQLFY</value> <!-- end of same fiscal quarter last fiscal year !-->
+    <value>SMFQBL</value> <!-- end of same month fiscal quarter before last !-->
+    <value>SMFYBL</value> <!-- end of same month fiscal year before last !-->
+    <value>SMLFQ</value> <!-- end of same month last fiscal quarter !-->
+    <value>SMLFY</value> <!-- end of same month last fiscal year !-->
+    <value>SOFHBL</value> <!-- start of fiscal half before last !-->
+    <value>SOFQBL</value> <!-- start of fiscal quarter before last !-->
+    <value>SOFYBL</value> <!-- start of fiscal year before last !-->
+    <value>SOLBW</value> <!-- start of last business week !-->
+    <value>SOLFH</value> <!-- start of last fiscal half !-->
+    <value>SOLFHLFY</value> <!-- start of last fiscal half one fiscal year ago !-->
+    <value>SOLFQ</value> <!-- start of last fiscal quarter !-->
+    <value>SOLFQLFY</value> <!-- start of last fiscal quarter one fiscal year ago !-->
+    <value>SOLFY</value> <!-- start of last fiscal year !-->
+    <value>SOLM</value> <!-- start of last month !-->
+    <value>SOLMLFQ</value> <!-- start of last month one fiscal quarter ago !-->
+    <value>SOLMLFY</value> <!-- start of last month one fiscal year ago !-->
+    <value>SOLRH</value> <!-- start of last rolling half !-->
+    <value>SOLRQ</value> <!-- start of last rolling quarter !-->
+    <value>SOLRY</value> <!-- start of last rolling year !-->
+    <value>SOLW</value> <!-- start of last week !-->
+    <value>SOMBL</value> <!-- start of month before last !-->
+    <value>SONBW</value> <!-- start of next business week !-->
+    <value>SONFH</value> <!-- start of next fiscal half !-->
+    <value>SONFQ</value> <!-- start of next fiscal quarter !-->
+    <value>SONFY</value> <!-- start of next fiscal year !-->
+    <value>SONM</value> <!-- start of next month !-->
+    <value>SONW</value> <!-- start of next week !-->
+    <value>SOPRH</value> <!-- start of previous rolling half !-->
+    <value>SOPRQ</value> <!-- start of previous rolling quarter !-->
+    <value>SOPRY</value> <!-- start of previous rolling year !-->
+    <value>SOSFHLFY</value> <!-- start of same fiscal half last fiscal year !-->
+    <value>SOSFQLFY</value> <!-- start of same fiscal quarter last fiscal year !-->
+    <value>SOSMLFQ</value> <!-- start of same month last fiscal quarter !-->
+    <value>SOSMLFY</value> <!-- start of same month last fiscal year !-->
+    <value>SOTBW</value> <!-- start of this business week !-->
+    <value>SOTFH</value> <!-- start of this fiscal half !-->
+    <value>SOTFQ</value> <!-- start of this fiscal quarter !-->
+    <value>SOTFY</value> <!-- start of this fiscal year !-->
+    <value>SOTM</value> <!-- start of this month !-->
+    <value>SOTW</value> <!-- start of this week !-->
+    <value>SOTY</value> <!-- start of this year !-->
+    <value>SOWBL</value> <!-- start of week before last !-->
+    <value>SWFYBL</value> <!-- end of same week fiscal year before last !-->
+    <value>SWLFY</value> <!-- end of same week last fiscal year !-->
+    <value>TBW</value> <!-- end of this business week !-->
+    <value>TFH</value> <!-- end of this fiscal half !-->
+    <value>TFQ</value> <!-- end of this fiscal quarter !-->
+    <value>TFY</value> <!-- end of this fiscal year !-->
+    <value>TM</value> <!-- end of this month !-->
+    <value>TODAY</value> <!-- today !-->
+    <value>TOMORROW</value> <!-- tomorrow !-->
+    <value>TRH</value> <!-- end of this rolling half !-->
+    <value>TRQ</value> <!-- end of this rolling quarter !-->
+    <value>TRY</value> <!-- end of this rolling year !-->
+    <value>TW</value> <!-- end of this week !-->
+    <value>TWN3W</value> <!-- end of next three weeks !-->
+    <value>TY</value> <!-- end of this year !-->
+    <value>WAN</value> <!-- end of week after next !-->
+    <value>WANTD</value> <!-- same day week after next !-->
+    <value>WBL</value> <!-- end of week before last !-->
+    <value>WBLTD</value> <!-- same day two weeks ago !-->
+    <value>YESTERDAY</value> <!-- yesterday !-->
+</list>

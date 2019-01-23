@@ -11,16 +11,6 @@
       <feature required="false">ACCOUNTING</feature>
       <feature required="false">CRM</feature>
     </features>
-    <objects>
-      <object>customlist_invoice_delivery_type</object>
-    </objects>
-    <files>
-      <file>/SuiteScripts/SCG_ProcessInvoices_CS.js</file>
-      <file>/SuiteScripts/MT Sales Order UE.js</file>
-      <file>/SuiteScripts/SCG_ProcessInvoices_SS.js</file>
-      <file>/SuiteScripts/SCG_SORevRec_LIB.js</file>
-      <file>/SuiteScripts/SCG_ProcessInvoices_SL.js</file>
-    </files>
     <applications/>
   </dependencies>
 </manifest>
