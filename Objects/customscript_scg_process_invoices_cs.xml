@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_scg_process_invoices_cs">
+  <description>Handles client events on the Process Invoices Suitelet</description>
+  <fieldchangedfunction>scg_invpdf_fieldChanged</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>SCG Process Invoices CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>scg_invpdf_pageInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>scg_invpdf_saveRecord</saverecordfunction>
+  <scriptfile>[/SuiteScripts/SCG_ProcessInvoices_CS.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

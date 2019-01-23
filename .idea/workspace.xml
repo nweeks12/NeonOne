@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2010d3c4-764f-424b-a3e0-a537bcd280ca" name="Default Changelist" comment="" />
+    <list default="true" id="2010d3c4-764f-424b-a3e0-a537bcd280ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/netsuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/netsuite.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -10,6 +12,19 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Objects/customrole_scg_sdf_dev.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +47,22 @@
             <path>
               <item name="NeonOne" type="b2602c69:ProjectViewProjectNode" />
               <item name="NeonOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeonOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeonOne" type="462c0819:PsiDirectoryNode" />
+              <item name="FileCabinet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeonOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeonOne" type="462c0819:PsiDirectoryNode" />
+              <item name="FileCabinet" type="462c0819:PsiDirectoryNode" />
+              <item name="SuiteScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeonOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeonOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Objects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -64,18 +95,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548191777038</updated>
-      <workItem from="1548191778196" duration="2185000" />
+      <workItem from="1548191778196" duration="5981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2185000" />
+    <option name="totallyTimeSpent" value="5981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2253" y="23" width="1587" height="1577" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1577" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43933588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36229596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SuiteCloud IDE" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -96,5 +128,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Objects/customrole_scg_sdf_dev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

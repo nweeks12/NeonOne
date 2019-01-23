@@ -71,6 +71,118 @@
                                 <option name="email" value="nick.weeks@saascg.com" />
                                 <option name="password" value="c1db3a1d04f428de289b4a09714850e19e00ecb644b20be7e7eb425b1c4af8bd" />
                               </Account>
+                              <Account>
+                                <option name="companies">
+                                  <Companies>
+                                    <option name="company">
+                                      <array>
+                                        <Company>
+                                          <option name="UUID" value="266f062d-70b7-4f35-a0c1-7a5c4401d541" />
+                                          <option name="accountType" value="SANDBOX" />
+                                          <option name="id" value="3519783_SB1" />
+                                          <option name="name" value="Neon One, LLC" />
+                                          <option name="restDomain" value="3519783-sb1.restlets.api.netsuite.com" />
+                                          <option name="roles">
+                                            <Roles>
+                                              <option name="role">
+                                                <array>
+                                                  <Role>
+                                                    <option name="name" value="Administrator" />
+                                                    <option name="nkey" value="3" />
+                                                  </Role>
+                                                </array>
+                                              </option>
+                                            </Roles>
+                                          </option>
+                                          <option name="systemDomain" value="system.netsuite.com" />
+                                          <option name="webservicesDomain" value="3519783-sb1.suitetalk.api.netsuite.com" />
+                                        </Company>
+                                      </array>
+                                    </option>
+                                  </Companies>
+                                </option>
+                                <option name="email" value="netsuite_team+neonone2@saascg.com" />
+                                <option name="password" value="76784a5e2d71a14da7448fc61aa56e51" />
+                              </Account>
+                              <Account>
+                                <option name="companies">
+                                  <Companies>
+                                    <option name="company">
+                                      <array>
+                                        <Company>
+                                          <option name="UUID" value="fbbdc693-4495-4ee4-8bf9-23590cec5bbf" />
+                                          <option name="accountType" value="SANDBOX" />
+                                          <option name="id" value="4244402_SB1" />
+                                          <option name="name" value="PowerSchool Group LLC" />
+                                          <option name="restDomain" value="4244402-sb1.restlets.api.netsuite.com" />
+                                          <option name="roles">
+                                            <Roles>
+                                              <option name="role">
+                                                <array>
+                                                  <Role>
+                                                    <option name="name" value="Administrator" />
+                                                    <option name="nkey" value="3" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="Full Access" />
+                                                    <option name="nkey" value="18" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS A/P Clerk" />
+                                                    <option name="nkey" value="1010" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS A/R Clerk" />
+                                                    <option name="nkey" value="1007" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS A/R Clerk &amp; Projects" />
+                                                    <option name="nkey" value="1011" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Admin Assistant" />
+                                                    <option name="nkey" value="1013" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Contractor Center" />
+                                                    <option name="nkey" value="1009" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Employee Center" />
+                                                    <option name="nkey" value="1006" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Finance" />
+                                                    <option name="nkey" value="1012" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Project Admin - Resources" />
+                                                    <option name="nkey" value="1001" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="PS Project Manager (OLD)" />
+                                                    <option name="nkey" value="1003" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="SDF Developer" />
+                                                    <option name="nkey" value="1061" />
+                                                    <option name="tokenKey" value="b9e119a1c6170eeecf6f46e56ba011d6b4e42c03334cf696092b0007494586a698b08cab083d2829239dc6e2c0ae60b129c5bb87d514854ea2c46f3247fcd1127ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                    <option name="tokenSecret" value="ec771f51443d3cd69902dc93fa7fd19d3d20fb6481938f7fe45036d40d0fa156e8d69d91df1f0f68cc2f2df73ccf037b5b1deee091ef2775e621bfdab3aa793d7ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                  </Role>
+                                                </array>
+                                              </option>
+                                            </Roles>
+                                          </option>
+                                          <option name="systemDomain" value="system.netsuite.com" />
+                                          <option name="webservicesDomain" value="4244402-sb1.suitetalk.api.netsuite.com" />
+                                        </Company>
+                                      </array>
+                                    </option>
+                                  </Companies>
+                                </option>
+                                <option name="email" value="netsuite_team+powerschool@saascg.com" />
+                                <option name="password" value="9ad28bb6c38bcd0bf6b326cf3adea585" />
+                              </Account>
                             </array>
                           </option>
                         </Accounts>
@@ -91,8 +203,8 @@
     </option>
     <option name="projectSettings">
       <ProjectSettings>
-        <option name="accountRoleId" value="1028" />
-        <option name="accountUUID" value="311b80fd-1e16-45c7-ae9f-2ae5888a2ad5" />
+        <option name="accountRoleId" value="1061" />
+        <option name="accountUUID" value="fbbdc693-4495-4ee4-8bf9-23590cec5bbf" />
         <option name="applyContentProtection" value="false" />
       </ProjectSettings>
     </option>

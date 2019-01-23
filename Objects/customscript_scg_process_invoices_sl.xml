@@ -1,0 +1,36 @@
+<suitelet scriptid="customscript_scg_process_invoices_sl">
+  <defaultfunction>scg_invpdf_listInvoices</defaultfunction>
+  <description>Allows a user to select Invoices for PDF generation</description>
+  <isinactive>F</isinactive>
+  <name>SCG Process Invoices SL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/SCG_ProcessInvoices_SL.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_scg_process_invoices_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole>ADMINISTRATOR|[scriptid=customrole1011]</audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>FULL_ACCESS</runasrole>
+      <status>RELEASED</status>
+      <title>SCG Process Invoices SL</title>
+      <links>
+        <link>
+          <linkcategory>BASICTRANSACTIONSSALES</linkcategory>
+          <linklabel>Send Invoices</linklabel>
+        </link>
+        <link>
+          <linkcategory>ACCOUNTCENTERCUSTOMERSACCOUNTSRECEIVABLE</linkcategory>
+          <linklabel>Send Invoices</linklabel>
+        </link>
+      </links>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
