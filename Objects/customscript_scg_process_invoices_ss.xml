@@ -92,7 +92,7 @@
   </scriptcustomfields>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_scg_process_invoices_ss">
-      <custscript_process_inv_author>[ACCOUNT_SPECIFIC_VALUE]</custscript_process_inv_author>
+      <custscript_process_inv_author></custscript_process_inv_author>
       <custscript_process_inv_bcc></custscript_process_inv_bcc>
       <custscript_process_inv_ids></custscript_process_inv_ids>
       <isdeployed>T</isdeployed>

@@ -1,4 +1,26 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>NeonOne</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">WEBSERVICES</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="false">CRM</feature>
+    </features>
+    <objects>
+      <object>customlist_invoice_delivery_type</object>
+    </objects>
+    <files>
+      <file>/SuiteScripts/SCG_ProcessInvoices_CS.js</file>
+      <file>/SuiteScripts/MT Sales Order UE.js</file>
+      <file>/SuiteScripts/SCG_ProcessInvoices_SS.js</file>
+      <file>/SuiteScripts/SCG_SORevRec_LIB.js</file>
+      <file>/SuiteScripts/SCG_ProcessInvoices_SL.js</file>
+    </files>
+    <applications/>
+  </dependencies>
 </manifest>

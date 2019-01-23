@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_invoice_delivery_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Invoice Delivery Type</name>
+  <customvalues>
+    <customvalue scriptid="val_32528643_4244402_sb1_395">
+      <isinactive>F</isinactive>
+      <value>Email</value>
+    </customvalue>
+    <customvalue scriptid="val_32528644_4244402_sb1_597">
+      <isinactive>F</isinactive>
+      <value>Mail</value>
+    </customvalue>
+    <customvalue scriptid="val_32528645_4244402_sb1_710">
+      <isinactive>F</isinactive>
+      <value>Portal</value>
+    </customvalue>
+  </customvalues>
+</customlist>

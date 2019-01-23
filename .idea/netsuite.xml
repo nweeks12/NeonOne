@@ -77,39 +77,6 @@
                                     <option name="company">
                                       <array>
                                         <Company>
-                                          <option name="UUID" value="266f062d-70b7-4f35-a0c1-7a5c4401d541" />
-                                          <option name="accountType" value="SANDBOX" />
-                                          <option name="id" value="3519783_SB1" />
-                                          <option name="name" value="Neon One, LLC" />
-                                          <option name="restDomain" value="3519783-sb1.restlets.api.netsuite.com" />
-                                          <option name="roles">
-                                            <Roles>
-                                              <option name="role">
-                                                <array>
-                                                  <Role>
-                                                    <option name="name" value="Administrator" />
-                                                    <option name="nkey" value="3" />
-                                                  </Role>
-                                                </array>
-                                              </option>
-                                            </Roles>
-                                          </option>
-                                          <option name="systemDomain" value="system.netsuite.com" />
-                                          <option name="webservicesDomain" value="3519783-sb1.suitetalk.api.netsuite.com" />
-                                        </Company>
-                                      </array>
-                                    </option>
-                                  </Companies>
-                                </option>
-                                <option name="email" value="netsuite_team+neonone2@saascg.com" />
-                                <option name="password" value="76784a5e2d71a14da7448fc61aa56e51" />
-                              </Account>
-                              <Account>
-                                <option name="companies">
-                                  <Companies>
-                                    <option name="company">
-                                      <array>
-                                        <Company>
                                           <option name="UUID" value="fbbdc693-4495-4ee4-8bf9-23590cec5bbf" />
                                           <option name="accountType" value="SANDBOX" />
                                           <option name="id" value="4244402_SB1" />
@@ -182,6 +149,45 @@
                                 </option>
                                 <option name="email" value="netsuite_team+powerschool@saascg.com" />
                                 <option name="password" value="9ad28bb6c38bcd0bf6b326cf3adea585" />
+                              </Account>
+                              <Account>
+                                <option name="companies">
+                                  <Companies>
+                                    <option name="company">
+                                      <array>
+                                        <Company>
+                                          <option name="UUID" value="618c0fde-19fc-4ac5-b993-299de2e6903d" />
+                                          <option name="accountType" value="SANDBOX" />
+                                          <option name="id" value="3519783_SB1" />
+                                          <option name="name" value="Neon One, LLC" />
+                                          <option name="restDomain" value="3519783-sb1.restlets.api.netsuite.com" />
+                                          <option name="roles">
+                                            <Roles>
+                                              <option name="role">
+                                                <array>
+                                                  <Role>
+                                                    <option name="name" value="Administrator" />
+                                                    <option name="nkey" value="3" />
+                                                  </Role>
+                                                  <Role>
+                                                    <option name="name" value="SDF Developer" />
+                                                    <option name="nkey" value="1017" />
+                                                    <option name="tokenKey" value="35b3cbb7537b002113c042e211aa727f810252363bf6d931d7f3ed054c189ba3d7d462f96d6235393bd54d3d4620ccc49ff84aea1136a4429bc32345f6fb2c717ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                    <option name="tokenSecret" value="bb3873010141225da678de718ab78d1f6de76dcbd496ad6aced42e06ace1964130392dd23262259ae422542e7958bd6875f82313774def1687852cfa0a3c85b77ee9ba225165fb2626f6b6fe63e0e28f" />
+                                                  </Role>
+                                                </array>
+                                              </option>
+                                            </Roles>
+                                          </option>
+                                          <option name="systemDomain" value="system.netsuite.com" />
+                                          <option name="webservicesDomain" value="3519783-sb1.suitetalk.api.netsuite.com" />
+                                        </Company>
+                                      </array>
+                                    </option>
+                                  </Companies>
+                                </option>
+                                <option name="email" value="netsuite_team+neonone2@saascg.com" />
+                                <option name="password" value="76784a5e2d71a14da7448fc61aa56e51" />
                               </Account>
                             </array>
                           </option>

@@ -10,10 +10,10 @@
   <scriptfile>[/SuiteScripts/SCG_ProcessInvoices_SL.js]</scriptfile>
   <scriptdeployments>
     <scriptdeployment scriptid="customdeploy_scg_process_invoices_sl">
-      <allemployees>F</allemployees>
+      <allemployees>T</allemployees>
       <allpartners>F</allpartners>
-      <allroles>F</allroles>
-      <audslctrole>ADMINISTRATOR|[scriptid=customrole1011]</audslctrole>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
       <eventtype></eventtype>
       <isdeployed>T</isdeployed>
       <isonline>F</isonline>
