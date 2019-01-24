@@ -1,0 +1,91 @@
+<list id='generic_customrecordothercustomfield_rectype'>
+	<value>-101</value>	<!-- Class -->
+	<value>-102</value>	<!-- Department -->
+	<value>-103</value>	<!-- Location -->
+	<value>-107</value>	<!-- Campaign Event -->
+	<value>-108</value>	<!-- Competitor -->
+	<value>-112</value>	<!-- Account -->
+	<value>-113</value>	<!-- Product Version -->
+	<value>-115</value>	<!-- Product -->
+	<value>-117</value>	<!-- Subsidiary -->
+	<value>-118</value>	<!-- Role -->
+	<value>-121</value>	<!-- Promotion Code -->
+	<value>-126</value>	<!-- Expense Category -->
+	<value>-128</value>	<!-- Tax Code -->
+	<value>-129</value>	<!-- Workflow -->
+	<value>-196</value>	<!-- Workplace -->
+	<value>-242</value>	<!-- Bin -->
+	<value>-246</value>	<!-- Item Demand Plan -->
+	<value>-247</value>	<!-- Item Supply Plan -->
+	<value>-248</value>	<!-- Standard Cost Version -->
+	<value>-249</value>	<!-- Planned Standard Cost -->
+	<value>-250</value>	<!-- Global Account Mapping -->
+	<value>-251</value>	<!-- Item Account Mapping -->
+	<value>-252</value>	<!-- Entity Account Mapping -->
+	<value>-253</value>	<!-- Accounting Book -->
+	<value>-257</value>	<!-- Class Segment Mapping -->
+	<value>-258</value>	<!-- Department Segment Mapping -->
+	<value>-259</value>	<!-- Location Segment Mapping -->
+	<value>-265</value>	<!-- Payroll Item -->
+	<value>-276</value>	<!-- Charge Rule -->
+	<value>-278</value>	<!-- Allocation Type -->
+	<value>-288</value>	<!-- Manufacturing Routing -->
+	<value>-289</value>	<!-- Address -->
+	<value>-290</value>	<!-- Charge -->
+	<value>-292</value>	<!-- Timesheet -->
+	<value>-294</value>	<!-- Manufacturing Cost Template -->
+	<value>-295</value>	<!-- Time Entry -->
+	<value>-298</value>	<!-- Inventory Cost Template -->
+	<value>-303</value>	<!-- Note -->
+	<value>-304</value>	<!-- Payroll Batch -->
+	<value>-309</value>	<!-- Shipping Partner Registration -->
+	<value>-316</value>	<!-- Shipping Partner Shipment -->
+	<value>-317</value>	<!-- Shipping Partner Package -->
+	<value>-325</value>	<!-- Distribution Category -->
+	<value>-326</value>	<!-- Distribution Network -->
+	<value>-327</value>	<!-- Bill Of Distribution -->
+	<value>-330</value>	<!-- Subscription -->
+	<value>-331</value>	<!-- Item Revenue Category -->
+	<value>-332</value>	<!-- Fair Value Price -->
+	<value>-333</value>	<!-- Billing Account -->
+	<value>-335</value>	<!-- Fair Value Formula -->
+	<value>-336</value>	<!-- Revenue Element -->
+	<value>-342</value>	<!-- Subscription Line -->
+	<value>-347</value>	<!-- Revenue Recognition Plan -->
+	<value>-348</value>	<!-- Revenue Allocation Group -->
+	<value>-350</value>
+	<value>-353</value>	<!-- Region -->
+	<value>-355</value>
+	<value>-357</value>	<!-- Revenue Recognition Rule -->
+	<value>-359</value>	<!-- Subscription Change Order -->
+	<value>-362</value>
+	<value>-369</value>	<!-- Location Costing Group -->
+	<value>-376</value>	<!-- Time-Off Request -->
+	<value>-377</value>	<!-- Time-Off Type -->
+	<value>-379</value> <!-- Commerce Category -->
+	<value>-381</value>	<!-- Auto Location Assignment Configuration -->
+	<value>-382</value>	<!-- Time-Off Plan -->
+	<value>-383</value>	<!-- Time-Off Rule -->
+	<value>-385</value>	<!-- Auto Location Assignment Rule -->
+	<value>-386</value>	<!-- Time-Off Change -->
+	<value>-388</value>	<!-- Job Requisition -->
+	<value>-409</value>	<!-- Labor Based Project Revenue Rule -->
+	<value>-410</value>	<!-- Fixed Amount Project Revenue Rule -->
+	<value>-411</value>	<!-- Percent Complete Project Revenue Rule -->
+	<value>-412</value>
+	<value>-419</value>
+	<value>-422</value>
+	<value>-423</value>
+	<value>-424</value>
+	<value>-425</value>
+	<value>-427</value>
+	<value>-428</value>
+	<value>-434</value>
+	<value>-435</value>
+	<value>-506</value>
+	<value>-520</value>
+	<value>-522</value>
+	<value>-543</value>
+	<value>-550</value>
+	<value>-4006</value>
+</list>

@@ -1,0 +1,53 @@
+<list id="generic_standard_transactions">
+	<value>ADVINTERCOMPANYJOURNALENTRY</value>  <!-- Advanced Intercompany Journal Entry -->
+	<value>ASSEMBLYBUILD</value>  <!-- Assembly Build -->
+	<value>ASSEMBLYUNBUILD</value>  <!-- Assembly UnBuild -->
+	<value>BINTRANSFER</value>  <!-- BinTransfer -->
+	<value>BINWORKSHEET</value>  <!-- BinWorksheet -->
+	<value>BLANKETPURCHASEORDER</value>  <!-- Blanket Purchase Order -->
+	<value>CASHREFUND</value>  <!-- Cash Refund -->
+	<value>CASHSALE</value>  <!-- Cash Sale -->
+	<value>CHECK</value>  <!-- Check -->
+	<value>CREDITMEMO</value>  <!-- Credit Memo -->
+	<value>CUSTOMERDEPOSIT</value>  <!-- Customer Deposit -->
+	<value>CUSTOMERPAYMENT</value>  <!-- Customer Payment -->
+	<value>CUSTOMERPAYMENTAUTHORIZATION</value>  <!-- Customer Payment Authorization -->
+	<value>CUSTOMERREFUND</value>  <!-- Customer Refund -->
+	<value>DEPOSITAPPLICATION</value>  <!-- Deposit Application -->
+	<value>ESTIMATE</value>  <!-- Estimate -->
+	<value>EXPENSEREPORT</value>  <!-- Expense Report -->
+	<value>FULFILLMENTREQUEST</value>  <!-- Fulfillment Request -->
+	<value>INTERCOMPANYJOURNALENTRY</value>  <!-- Intercompany Journal Entry -->
+	<value>INTERCOMPANYTRANSFERORDER</value>  <!-- Intercompany Transfer Order -->
+	<value>INVENTORYADJUSTMENT</value>  <!-- Inventory Adjustment -->
+	<value>INVENTORYCOSTREVALUATION</value>  <!-- Inventory Cost Revaluation -->
+	<value>INVENTORYCOUNT</value>  <!-- Inventory Count -->
+	<value>INVENTORYSTATUSCHANGE</value>  <!-- Inventory Status Change -->
+	<value>INVENTORYTRANSFER</value>  <!-- Inventory Transfer -->
+	<value>INVOICE</value>  <!-- Invoice -->
+	<value>ITEMFULFILLMENT</value>  <!-- Item Fulfillment -->
+	<value>ITEMRECEIPT</value>  <!-- Item Receipt -->
+	<value>JOURNALENTRY</value>  <!-- Journal Entry -->
+	<value>PAYCHECK</value>  <!-- Paycheck -->
+	<value>PAYCHECKJOURNAL</value>  <!-- Paycheck Journal -->
+	<value>PERIODENDJOURNAL</value>  <!-- Period End Journal -->
+	<value>PURCHASECONTRACT</value>  <!-- Purchase Contract -->
+	<value>PURCHASEORDER</value>  <!-- Purchase Order -->
+	<value>PURCHASEREQUISITION</value>  <!-- Requisition -->
+	<value>RETURNAUTHORIZATION</value>  <!-- Return Authorization -->
+	<value>REVENUEARRANGEMENT</value>  <!-- Revenue Arrangement -->
+	<value>REVENUECOMMITMENT</value>  <!-- Revenue Commitment -->
+	<value>REVENUECOMMITMENTREVERSAL</value>  <!-- Revenue Commitment Reversal -->
+	<value>SALESORDER</value>  <!-- Sales Order -->
+	<value>STATISTICALJOURNALENTRY</value>  <!-- Statistical Journal Entry -->
+	<value>STOREPICKUPFULFILLMENT</value>  <!-- Store Pickup Fulfillment -->
+	<value>TRANSFERORDER</value>  <!-- Transfer Order -->
+	<value>VENDORBILL</value>  <!-- Vendor Bill -->
+	<value>VENDORCREDIT</value>  <!-- Vendor Credit -->
+	<value>VENDORPAYMENT</value>  <!-- Vendor Payment -->
+	<value>VENDORRETURNAUTHORIZATION</value>  <!-- Vendor Return Authorization -->
+	<value>WORKORDER</value>  <!-- Work Order -->
+	<value>WORKORDERCLOSE</value>  <!-- Work Order Close -->
+	<value>WORKORDERCOMPLETION</value>  <!-- Work Order Completion -->
+	<value>WORKORDERISSUE</value>  <!-- Work Order Issue -->
+</list>

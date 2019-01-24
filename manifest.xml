@@ -1,4 +1,16 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>NeonOne</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">WEBSERVICES</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="false">CRM</feature>
+    </features>
+    <applications/>
+  </dependencies>
 </manifest>

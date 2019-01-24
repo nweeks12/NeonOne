@@ -1,0 +1,339 @@
+<list id="generic_customfield_selectrecordtype">
+	<value>-2</value>	<!-- Customer -->
+	<value>-3</value>	<!-- Vendor -->
+	<value>-4</value>	<!-- Employee -->
+	<value>-5</value>	<!-- Partner -->
+	<value>-6</value>	<!-- Contact -->
+	<value>-7</value>	<!-- Job -->
+	<value>-8</value>	<!-- Entity Group -->
+	<value>-9</value>	<!-- Entity -->
+	<value>-10</value>	<!-- Item -->
+	<value>-20</value>	<!-- Event -->
+	<value>-21</value>	<!-- Task -->
+	<value>-22</value>	<!-- Call -->
+	<value>-23</value>	<!-- Case -->
+	<value>-24</value>	<!-- Campaign -->
+	<value>-25</value>	<!-- Solution -->
+	<value>-26</value>	<!-- Issue -->
+	<value>-27</value>	<!-- Project Task -->
+	<value>-28</value>	<!-- Resource Allocation -->
+	<value>-30</value>	<!-- Transaction -->
+	<value>-31</value>	<!-- Opportunity -->
+	<value>-35</value>	<!-- Manufacturing Operation -->
+	<value>-36</value>	<!-- Manufacturing Operation Task -->
+	<value>-37</value>	<!-- Employee Payroll Item Earning -->
+	<value>-38</value>	<!-- Employee Payroll Item Tax -->
+	<value>-39</value>	<!-- Employee Payroll Item Deduction -->
+	<value>-40</value>	<!-- Employee Payroll Item Company Contribution -->
+	<value>-41</value>
+	<value>-100</value>	<!-- Transaction Type -->
+	<value>-101</value>	<!-- Class -->
+	<value>-102</value>	<!-- Department -->
+	<value>-103</value>	<!-- Location -->
+	<value>-104</value>	<!-- Entity Status -->
+	<value>-105</value>	<!-- Accounting Period -->
+	<value>-106</value>	<!-- Item Type -->
+	<value>-108</value>	<!-- Competitor -->
+	<value>-109</value>	<!-- Customer Category -->
+	<value>-110</value>	<!-- Vendor Category -->
+	<value>-111</value>	<!-- Employee Type -->
+	<value>-112</value>	<!-- Account -->
+	<value>-113</value>	<!-- Product Version -->
+	<value>-114</value>	<!-- Product Build -->
+	<value>-115</value>	<!-- Product -->
+	<value>-116</value>	<!-- Module -->
+	<value>-117</value>	<!-- Subsidiary -->
+	<value>-118</value>	<!-- Role -->
+	<value>-119</value>	<!-- Saved Search -->
+	<value>-120</value>	<!-- Email Template -->
+	<value>-121</value>	<!-- Promotion Code -->
+	<value>-122</value>	<!-- Currency -->
+	<value>-123</value>	<!-- Record Type -->
+	<value>-124</value>	<!-- Field -->
+	<value>-125</value>	<!-- Scripted Record Type -->
+	<value>-126</value>	<!-- Expense Category -->
+	<value>-127</value>	<!-- Tax Period -->
+	<value>-128</value>	<!-- Tax Code -->
+	<value>-129</value>	<!-- Workflow -->
+	<value>-131</value>	<!-- Campaign Response Type -->
+	<value>-132</value>	<!-- Case Status -->
+	<value>-133</value>	<!-- Issue Status -->
+	<value>-134</value>	<!-- Sales Readiness -->
+	<value>-135</value>	<!-- Buying Time Frame -->
+	<value>-136</value>	<!-- Buying Reason -->
+	<value>-137</value>	<!-- Address Book -->
+	<value>-138</value>	<!-- Allocation Schedule -->
+	<value>-139</value>	<!-- Billing Class -->
+	<value>-140</value>	<!-- Billing Milestone -->
+	<value>-141</value>	<!-- Billing Schedule -->
+	<value>-142</value>	<!-- Campaign Audience -->
+	<value>-143</value>	<!-- Campaign Category -->
+	<value>-144</value>	<!-- Campaign Channel -->
+	<value>-145</value>	<!-- Campaign Family -->
+	<value>-146</value>	<!-- Campaign Offer -->
+	<value>-147</value>	<!-- File Type -->
+	<value>-148</value>	<!-- Campaign Search Engine -->
+	<value>-149</value>	<!-- Campaign Subscription -->
+	<value>-150</value>	<!-- Campaign Vertical -->
+	<value>-151</value>	<!-- Case Issue -->
+	<value>-152</value>	<!-- Case Origin -->
+	<value>-153</value>	<!-- Case Priority -->
+	<value>-154</value>	<!-- Case Type -->
+	<value>-155</value>	<!-- Cost Category -->
+	<value>-156</value>	<!-- Work Calendar -->
+	<value>-157</value>	<!-- Contact Role -->
+	<value>-158</value>	<!-- Contact Category -->
+	<value>-159</value>	<!-- Country -->
+	<value>-160</value>	<!-- Credit Hold Override Type -->
+	<value>-161</value>	<!-- Customer Message -->
+	<value>-162</value>	<!-- Sales Territory -->
+	<value>-163</value>	<!-- Support Territory -->
+	<value>-164</value>	<!-- Transaction Status -->
+	<value>-165</value>	<!-- Email Preference Type -->
+	<value>-166</value>	<!-- Employee Status -->
+	<value>-167</value>	<!-- Entry Form -->
+	<value>-168</value>	<!-- Ethnicity -->
+	<value>-169</value>	<!-- Event Reminder Duration -->
+	<value>-170</value>	<!-- Event Reminder Type -->
+	<value>-171</value>	<!-- Transaction Form -->
+	<value>-172</value>	<!-- Pay Frequency Type -->
+	<value>-173</value>	<!-- Issue Reproducibility -->
+	<value>-174</value>	<!-- Issue Severity -->
+	<value>-175</value>	<!-- Issue Source -->
+	<value>-176</value>	<!-- Issue Type -->
+	<value>-177</value>	<!-- Project Type -->
+	<value>-178</value>	<!-- Marital Status -->
+	<value>-179</value>	<!-- Merchant Account -->
+	<value>-180</value>	<!-- Note Type -->
+	<value>-181</value>	<!-- Other Name Category -->
+	<value>-182</value>	<!-- Partner Category -->
+	<value>-183</value>	<!-- Payment Method -->
+	<value>-184</value>	<!-- Costing Method Type -->
+	<value>-185</value>	<!-- Site Category -->
+	<value>-186</value>	<!-- Price Level -->
+	<value>-187</value>	<!-- Pricing Group -->
+	<value>-188</value>	<!-- Resident Status -->
+	<value>-189</value>	<!-- Revenue Recognition Schedule -->
+	<value>-190</value>	<!-- Sales Forecast Type -->
+	<value>-191</value>	<!-- Sales Role -->
+	<value>-192</value>	<!-- Shipping Method -->
+	<value>-193</value>	<!-- Shipping Package -->
+	<value>-194</value>	<!-- Site Template -->
+	<value>-195</value>	<!-- State -->
+	<value>-196</value>	<!-- Workplace -->
+	<value>-197</value>	<!-- Subscription Status -->
+	<value>-198</value>	<!-- Taxation Type -->
+	<value>-199</value>	<!-- Term -->
+	<value>-200</value>	<!-- Third Party Tracking Pixel -->
+	<value>-201</value>	<!-- Units Type -->
+	<value>-202</value>	<!-- Visa Type -->
+	<value>-203</value>	<!-- Win/Loss Reason -->
+	<value>-204</value>	<!-- Soft Descriptor -->
+	<value>-205</value>	<!-- Quantity Pricing Schedule -->
+	<value>-206</value>	<!-- Quantity Pricing Type -->
+	<value>-207</value>	<!-- Cost Estimate Type -->
+	<value>-208</value>	<!-- VOSE Discount Type -->
+	<value>-209</value>	<!-- VSOE Deferral Type -->
+	<value>-210</value>	<!-- Out of Stock Behavior Type -->
+	<value>-211</value>	<!-- Project Constraint Type -->
+	<value>-212</value>	<!-- Commission Payment Type -->
+	<value>-213</value>	<!-- Field Type -->
+	<value>-214</value>	<!-- Entity Type -->
+	<value>-215</value>	<!-- Account Type -->
+	<value>-216</value>	<!-- Revenue Commitment Status -->
+	<value>-217</value>	<!-- Revenue Status -->
+	<value>-218</value>	<!-- Event Status -->
+	<value>-219</value>	<!-- Task Status -->
+	<value>-220</value>	<!-- Phone Call Status -->
+	<value>-221</value>	<!-- Unit -->
+	<value>-222</value>	<!-- Event Priority -->
+	<value>-223</value>	<!-- Entity Stage -->
+	<value>-224</value>	<!-- Language -->
+	<value>-225</value>	<!-- Product Tax -->
+	<value>-226</value>	<!-- Campaign Event Response -->
+	<value>-227</value>	<!-- Campaign Event Type -->
+	<value>-228</value>	<!-- Category 1099 Misc -->
+	<value>-229</value>	<!-- Campaign Email -->
+	<value>-230</value>	<!-- Event Response Type -->
+	<value>-231</value>	<!-- Revenue Recurrence Type -->
+	<value>-232</value>	<!-- Amortization Type -->
+	<value>-233</value>	<!-- Promotion Code Discount Type -->
+	<value>-234</value>	<!-- Billing Schedule Type -->
+	<value>-235</value>	<!-- Workflow Trigger Type -->
+	<value>-236</value>	<!-- Workflow Release Status -->
+	<value>-237</value>	<!-- Locale -->
+	<value>-238</value>	<!-- Timezone -->
+	<value>-239</value>	<!-- Tax Rounding Type -->
+	<value>-240</value>	<!-- Consolidated Rate Type -->
+	<value>-241</value>	<!-- Edition -->
+	<value>-242</value>	<!-- Bin -->
+	<value>-243</value>	<!-- Approval Status -->
+	<value>-244</value>	<!-- Order Status -->
+	<value>-245</value>	<!-- Shipping Status -->
+	<value>-246</value>	<!-- Item Demand Plan -->
+	<value>-247</value>	<!-- Item Supply Plan -->
+	<value>-248</value>	<!-- Standard Cost Version -->
+	<value>-249</value>	<!-- Planned Standard Cost -->
+	<value>-250</value>	<!-- Global Account Mapping -->
+	<value>-251</value>	<!-- Item Account Mapping -->
+	<value>-252</value>	<!-- Entity Account Mapping -->
+	<value>-253</value>	<!-- Accounting Book -->
+	<value>-256</value>	<!-- Time -->
+	<value>-257</value>	<!-- Class Segment Mapping -->
+	<value>-258</value>	<!-- Department Segment Mapping -->
+	<value>-259</value>	<!-- Location Segment Mapping -->
+	<value>-261</value>	<!-- Period Subsidiary -->
+	<value>-262</value>	<!-- Fiscal Calendar -->
+	<value>-263</value>	<!-- VSOE SOP Group Type -->
+	<value>-264</value>	<!-- Task Item Status -->
+	<value>-265</value>	<!-- Payroll Item -->
+	<value>-266</value>	<!-- Inventory Number -->
+	<value>-268</value>	<!-- Website -->
+	<value>-269</value>	<!-- Item Revision -->
+	<value>-270</value>	<!-- Commission Schedule -->
+	<value>-271</value>	<!-- Commission Plan -->
+	<value>-276</value>	<!-- Charge Rule -->
+	<value>-278</value>	<!-- Allocation Type -->
+	<value>-280</value>	<!-- Number Format -->
+	<value>-281</value>	<!-- Negative Number Format -->
+	<value>-282</value>	<!-- Currency Symbol Placement -->
+	<value>-283</value>	<!-- Rate Source Type -->
+	<value>-284</value>	<!-- Rate Rounding Type -->
+	<value>-285</value>	<!-- Charge Rule Type -->
+	<value>-286</value>	<!-- Cap Type -->
+	<value>-287</value>	<!-- Project Expense Type -->
+	<value>-288</value>	<!-- Manufacturing Routing -->
+	<value>-289</value>	<!-- Address -->
+	<value>-290</value>	<!-- Charge -->
+	<value>-292</value>	<!-- Timesheet -->
+	<value>-293</value>	<!-- Charge Type -->
+	<value>-294</value>	<!-- Manufacturing Cost Template -->
+	<value>-295</value>	<!-- Time Entry -->
+	<value>-296</value>	<!-- Charge Stage -->
+	<value>-297</value>	<!-- Time Entry Approval Status -->
+	<value>-298</value>	<!-- Inventory Cost Template -->
+	<value>-301</value>	<!-- Resource Allocation Approval Status -->
+	<value>-302</value>	<!-- GL Audit Numbering Sequence -->
+	<value>-304</value>	<!-- Payroll Batch -->
+	<value>-309</value>	<!-- Shipping Partner Registration -->
+	<value>-310</value>	<!-- Generic Resource -->
+	<value>-311</value>	<!-- Employee Payroll Item -->
+	<value>-314</value>
+	<value>-315</value>
+	<value>-316</value>	<!-- Shipping Partner Shipment -->
+	<value>-317</value>	<!-- Shipping Partner Package -->
+	<value>-319</value>	<!-- Charge Billing Mode -->
+	<value>-320</value>	<!-- Case Profile -->
+	<value>-321</value>	<!-- Project Template -->
+	<value>-322</value>	<!-- ConsolidatedExchangeRate -->
+	<value>-324</value>	<!-- Incoterm -->
+	<value>-325</value>	<!-- Distribution Category -->
+	<value>-326</value>	<!-- Distribution Network -->
+	<value>-327</value>	<!-- Bill Of Distribution -->
+	<value>-330</value>	<!-- Subscription -->
+	<value>-331</value>	<!-- Item Revenue Category -->
+	<value>-332</value>	<!-- Fair Value Price -->
+	<value>-333</value>	<!-- Billing Account -->
+	<value>-335</value>	<!-- Fair Value Formula -->
+	<value>-336</value>	<!-- Revenue Element -->
+	<value>-337</value>	<!-- Renewal Type -->
+	<value>-338</value>	<!-- Billing Subscription Status -->
+	<value>-340</value>	<!-- Fair Value Dimension -->
+	<value>-342</value>	<!-- Subscription Line -->
+	<value>-343</value>	<!-- Reforecast Method -->
+	<value>-344</value>	<!-- Billing Subscription Line Status -->
+	<value>-345</value>	<!-- Termination Reason -->
+	<value>-347</value>	<!-- Revenue Recognition Plan -->
+	<value>-348</value>	<!-- Revenue Allocation Group -->
+	<value>-349</value>	<!-- Create Revenue Plans On -->
+	<value>-350</value>	<!-- Position -->
+	<value>-353</value>	<!-- Region -->
+	<value>-355</value>	<!-- HCMJob -->
+	<value>-356</value>	<!-- Government-Issued ID Type -->
+	<value>-357</value>	<!-- Revenue Recognition Rule -->
+	<value>-359</value>	<!-- Subscription Change Order -->
+	<value>-360</value>	<!-- Subscription Change Order Action -->
+	<value>-361</value>	<!-- Subscription Change Order Status -->
+	<value>-362</value>	<!-- Usage -->
+	<value>-364</value>	<!-- Subscription Change Order Reactivation Option -->
+	<value>-365</value>	<!-- Revenue Recognition Field Mapping -->
+	<value>-366</value>	<!-- Organization Value -->
+	<value>-367</value>	<!-- Kudos -->
+	<value>-368</value>	<!-- Passport -->
+	<value>-369</value>	<!-- Location Costing Group -->
+	<value>-371</value>	<!-- Location Type -->
+	<value>-372</value>	<!-- Driver's License -->
+	<value>-373</value>	<!-- Other Government-Issued ID -->
+	<value>-375</value>	<!-- Device Id -->
+	<value>-376</value>	<!-- Time-Off Request -->
+	<value>-377</value>	<!-- Time-Off Type -->
+	<value>-378</value> <!-- Commerce Category Tree -->
+	<value>-379</value> <!-- Commerce Category -->
+	<value>-380</value>
+	<value>-381</value>	<!-- Auto Location Assignment Configuration -->
+	<value>-382</value>	<!-- Time-Off Plan -->
+	<value>-383</value>	<!-- Time-Off Rule -->
+	<value>-385</value>	<!-- Auto Location Assignment Rule -->
+	<value>-386</value>	<!-- Time-Off Change -->
+	<value>-387</value>	<!-- Advanced PDF/HTML Template -->
+	<value>-388</value>	<!-- Job Requisition -->
+	<value>-391</value>	<!-- Time-off Change Type -->
+	<value>-392</value>	<!-- Time-off Change Time Unit -->
+	<value>-395</value>
+	<value>-396</value>
+	<value>-400</value>
+	<value>-402</value>	<!-- Time-Off Approval Status -->
+	<value>-403</value>	<!-- Job Requisition Status -->
+	<value>-404</value>	<!-- Job Requisition Posting Type -->
+	<value>-405</value>	<!-- Time-Off Accrual Frequency -->
+	<value>-406</value>	<!-- Day of Week -->
+	<value>-407</value>	<!-- Time-Off Accrual Type -->
+	<value>-408</value>
+	<value>-409</value>	<!-- Labor Based Project Revenue Rule -->
+	<value>-410</value>	<!-- Fixed Amount Project Revenue Rule -->
+	<value>-411</value>	<!-- Percent Complete Project Revenue Rule -->
+	<value>-412</value>	<!-- Billing Rate Card Type -->
+	<value>-413</value>	<!-- Month of Year -->
+	<value>-414</value>	<!-- Accounting Context -->
+	<value>-417</value> <!-- Script -->
+	<value>-418</value> <!-- Script Deployment -->
+	<value>-419</value>
+	<value>-420</value>
+	<value>-422</value>
+	<value>-423</value>
+	<value>-425</value>
+	<value>-426</value>
+	<value>-427</value>
+	<value>-428</value>
+	<value>-430</value>
+	<value>-431</value>
+	<value>-434</value> <!-- Expense Amortization Rule -->
+	<value>-435</value> <!-- Expense Amortization Plan -->
+	<value>-440</value>
+	<value>-441</value>
+	<value>-450</value>
+	<value>-451</value>
+	<value>-452</value>
+	<value>-494</value>
+	<value>-505</value>
+	<value>-506</value>
+	<value>-507</value>
+	<value>-508</value>
+	<value>-513</value>
+	<value>-514</value>
+	<value>-517</value>
+	<value>-520</value>
+	<value>-522</value>
+	<value>-523</value>
+	<value>-524</value>
+	<value>-528</value>
+	<value>-532</value>
+	<value>-543</value>
+	<value>-544</value>
+	<value>-546</value>
+	<value>-549</value>
+	<value>-550</value>
+	<value>-861</value>
+	<value>-862</value>
+	<value>-4006</value>
+</list>

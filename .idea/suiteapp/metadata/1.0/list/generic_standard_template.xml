@@ -1,0 +1,31 @@
+<list id='generic_standard_template'>
+    <value>-109</value> <!-- Standard Automatic Case Closure Notification !-->
+    <value>-209</value> <!-- Standard Automatic Case Closure Notification 2.0 !-->
+    <value>-102</value> <!-- Standard Case Assignment Support Notification !-->
+    <value>-203</value> <!-- Standard Case Assignment Support Notification 2.0 !-->
+    <value>-104</value> <!-- Standard Case Escalation Notification !-->
+    <value>-205</value> <!-- Standard Case Escalation Notification 2.0 !-->
+    <value>-103</value> <!-- Standard Case Update Support Notification !-->
+    <value>-204</value> <!-- Standard Case Update Support Notification 2.0 !-->
+    <value>-106</value> <!-- Standard Customer Center Access Email !-->
+    <value>-207</value> <!-- Standard Customer Center Access Email 2.0 !-->
+    <value>-131</value> <!-- Standard Issue Notification Email for Customers !-->
+    <value>-212</value> <!-- Standard Issue Notification Email for Customers 2.0 !-->
+    <value>-132</value> <!-- Standard Issue Notification Email for Employees !-->
+    <value>-213</value> <!-- Standard Issue Notification Email for Employees 2.0 !-->
+    <value>-101</value> <!-- Standard Message To Customer !-->
+    <value>-201</value> <!-- Standard Message To Customer 2.0 !-->
+    <value>-108</value> <!-- Standard Message To Employee !-->
+    <value>-202</value> <!-- Standard Message To Employee 2.0 !-->
+    <value>-100</value> <!-- Standard New Case Customer Notification !-->
+    <value>-200</value> <!-- Standard New Case Customer Notification 2.0 !-->
+    <value>-214</value> <!-- Standard New Case Notification from Online Case Forms !-->
+    <value>-120</value> <!-- Standard Notification for Existing Customers !-->
+    <value>-211</value> <!-- Standard Notification for Existing Customers 2.0 !-->
+    <value>-110</value> <!-- Standard Notification for New Leads !-->
+    <value>-210</value> <!-- Standard Notification for New Leads 2.0 !-->
+    <value>-107</value> <!-- Standard Partner Center Access Email !-->
+    <value>-208</value> <!-- Standard Partner Center Access Email 2.0 !-->
+    <value>-105</value> <!-- Standard User Access Email !-->
+    <value>-206</value> <!-- Standard User Access Email 2.0 !-->
+</list>
